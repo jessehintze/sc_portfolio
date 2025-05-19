@@ -1,0 +1,38 @@
+@use "../base/variables" as v;
+
+.portfolio-content{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column-reverse;
+    margin: 0 0 90px;
+}
+
+.portfolio-content .col-2 dl{
+    margin-right: 30px;
+}
+.portfolio-documentation {
+    margin: 0 -15px 30px;
+    box-shadow: 0 1rem 2rem -1.2rem rgba(0,0,0,0.4);
+    border: .1rem solid v.$grey1;
+}
+.portfolio-documentation img{
+    display: block;
+}
+@media screen and (min-width: 769px){
+    .portfolio-content{
+        flex-direction: initial;
+        margin: 0 0 50px;
+    }
+    .portfolio-content .col-1{
+        width: 75%;
+        padding-right: 10%;
+    }
+    .portfolio-content .col-2{
+        width: 25%;
+    }
+    .portfolio-documentation {
+        border-radius: 30px;
+        overflow: hidden;
+        margin: 0 0 30px;
+    }
+}

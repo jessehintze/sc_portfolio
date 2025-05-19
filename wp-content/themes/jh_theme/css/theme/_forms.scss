@@ -1,0 +1,111 @@
+@use "../base/variables" as v;
+@use "../layout/breakpoints" as b;
+
+input[type="text"], 
+input[type="email"], 
+input[type="url"], 
+input[type="password"], 
+input[type="search"], 
+input[type="number"], 
+input[type="tel"], 
+input[type="range"],
+input[type="date"], 
+input[type="month"], 
+input[type="week"],
+input[type="time"],
+input[type="datetime"],
+input[type="datetime-local"], 
+input[type="color"], 
+textarea {
+    font-size: 1.8rem;
+     color: v.$primary-color;
+     border: 1px solid v.$grey2;
+     border-radius: 15px;
+     padding: .8rem 1.2rem;
+     max-width: 100%;
+     &:focus,
+     &:focus-visible{
+        border-color: v.$primary-color;
+        border-width: .1rem;
+        outline: none;
+     }
+ }
+ form label{
+    margin-bottom: 10px;
+    display: inline-block;
+ }
+ .wpcf7-form-control-wrap{
+    position: relative;
+    display: block;
+    padding-bottom: 2.5rem;
+    margin-bottom: .5rem;
+ }
+ .wpcf7-not-valid-tip{
+    font-weight: 300;
+    position: absolute;
+    bottom: 0;
+ } 
+/*mailchimp*/
+#mc_embed_signup input.mce_inline_error {
+    border-color: #6B0505;
+    margin-bottom: 10px;
+}
+body #mc_embed_signup div.mce_inline_error{
+    font-weight: 400;
+    position: absolute;
+}
+.mc_embed_signup{
+    position: relative;
+    padding-right: 0;
+}
+.mc_embed_signup input{
+    margin: 0;
+}
+.mc_embed_signup .text-input{
+    width: 100%;
+    margin-bottom: 10px;
+}
+.mc_embed_signup .text-input::placeholder{
+    color: v.$grey3;
+}
+input[type="submit"]{
+    background: v.$primary-color;
+    border-radius: 15px;
+    border-width: 0;
+    color: #fff;
+    font-family: v.$primary-font;
+    font-size: 1.8rem;
+    letter-spacing: .05rem;
+    padding: .9rem 2rem;
+    transition: background-color .2s;
+    &:hover{
+        transition: background-color .2s;
+        background: v.$secondary-color;
+    }
+}
+.mc_embed_signup .btn{
+    position: static;
+    right: 0;
+    top: 0;
+    background: v.$primary-color;
+    width: 100%;
+}
+@media screen and (min-width: 769px) {
+    .mc_embed_signup {
+        position: relative;
+        padding-right: 12rem;
+    }
+    .mc_embed_signup .text-input {
+        margin-bottom: 0;
+    }
+    .mc_embed_signup .btn{
+        position: absolute;
+        width: auto;
+    }
+}
+// reverse the rows on contact page mobile
+.page-id-2 .wp-block-columns {
+    @include b.tablet-landscape-down{
+        flex-flow: column-reverse;
+    }
+}

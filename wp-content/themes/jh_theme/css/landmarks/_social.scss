@@ -1,0 +1,44 @@
+.menu-social-container ul{
+    margin: 0 -10px;
+    overflow: hidden;
+    text-align: center;
+    line-height: 0;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+.menu-social-container li{
+    padding: 0 10px;
+}
+.menu-social-container a{
+    font-size: 0;
+    display: inline-block;
+    width: 34px;
+    height: 35px;
+    background-repeat: no-repeat;
+    background-image: url(../images/social_instagram.svg);
+    background-position: center center;
+}
+.menu-social-container a:hover{
+    background-image: url(../images/social_instagram_hover.svg);
+}
+.menu-social-container .behance a{
+    background-image: url(../images/social_behance.svg);
+}
+.menu-social-container .behance a:hover{
+    background-image: url(../images/social_behance_hover.svg);
+}
+.menu-social-container .linkedin a{
+    background-image: url(../images/social_linkedin.svg);
+}
+.menu-social-container .linkedin a:hover{
+    background-image: url(../images/social_linkedin_hover.svg);
+}
+@media screen and (min-width: 1025px){
+    .menu-social-container ul {
+        margin: 0;
+    }
+    .menu-social-container li{
+        padding: 0;
+    }
+}

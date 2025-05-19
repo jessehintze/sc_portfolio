@@ -1,0 +1,65 @@
+@use "../base/variables" as v;
+@use "../layout/breakpoints" as b;
+
+.home .entry-header{
+    background:  v.$primary-color;
+    margin-bottom: 7rem;
+    padding-top: 2rem;
+    border-radius: v.$theme-b-radius;
+    h1{
+        background: v.$grey1;
+        border-radius: v.$theme-b-radius;
+        padding: 4.5rem 3rem 3rem 3rem;
+        font-size: 3rem;
+        line-height: 1;
+        text-transform: uppercase;
+        margin: 0;
+        @include b.tablet-portrait-up{
+            font-size: 5rem;
+            padding: 9rem 5rem 3rem 5rem;
+        }
+        span{
+            color: v.$secondary-color;
+            @include b.phone-up{
+                display: block;
+            }
+        }
+    }
+}
+.entry-header{
+    h1{
+        background: v.$grey1;
+        border-radius: v.$theme-b-radius;
+        padding: 2rem;
+        font-size: 3rem;
+        line-height: 1;
+        text-transform: uppercase;
+        margin: 0 0 2rem;
+        @include b.tablet-portrait-up{
+            font-size: 5rem;
+            padding: 3rem;
+        }
+    }
+}
+.featured-images{
+    display: flex;
+    margin: 0 -10px;
+    flex-wrap: wrap;
+}
+.header-image{
+    border-radius: 0;
+    overflow: hidden;
+    margin: -20px -15px 20px;
+    box-shadow: 0 1rem 2rem -1.2rem rgba(0,0,0,0.4);
+    border: .1rem solid v.$grey1;
+    vertical-align: middle;
+}
+.header-image img{
+    display: block;
+}
+@media screen and (min-width: 769px) {
+    .header-image {
+        border-radius: 30px;
+        margin: 0 0 58px;
+    }
+}

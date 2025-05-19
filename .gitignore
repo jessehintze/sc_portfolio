@@ -1,0 +1,9 @@
+.idea
+.idea/
+.idea/*
+.vscode
+.vscode/*
+
+wp-content/uploads/*
+wp-content/themes/jh_theme/css/styles.css.map
+wp-config.php

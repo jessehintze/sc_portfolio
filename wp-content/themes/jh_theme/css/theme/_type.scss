@@ -1,0 +1,101 @@
+@use "../base/variables" as v;
+ 
+// vag 300, 400
+// futura 500,700,800
+body {
+    font: 300 1.8rem/1.2 v.$primary-font;
+    color: v.$grey3;
+}
+h1,.h1 {
+    font: 700 30px/1.2 v.$secondary-font;
+    margin: 0 0 30px;
+    color: v.$primary-color;
+}
+h2 {
+    font: 700 30px/1.2 v.$secondary-font;
+    margin: 0 0 20px;
+    color: v.$primary-color;
+}
+h3 {
+    font: 700 24px/1.2 v.$secondary-font;
+    margin: 0 0 20px;
+    letter-spacing: .01rem;
+    color: v.$primary-color;
+}
+h4, h5, h6{
+    margin: 0 0 20px;
+    color: v.$primary-color;
+}
+p{
+    margin: 0 0 12px;
+    color: v.$grey3;
+    font-size: 18px;
+    line-height: 1.6;
+}
+ul, ol, dl {
+    margin: 0 0 0 15px;
+    padding: 0;
+}
+dl{
+    margin: 0 0 15px;
+}
+dt{
+    margin: 0 0 8px;
+    font: 700 1.8rem/1.2 v.$secondary-font;
+    color: v.$primary-color;
+}
+dd{
+    margin: 0 0 5px;
+}
+
+a{
+    color: v.$primary-color;
+}
+
+
+@media screen and (min-width: 769px){
+    h1,.h1 {
+        font:700 40px/1.5  v.$secondary-font;
+        margin: 0 0 30px;
+    }
+}
+.contact-link, 
+.nav-next,
+.nav-previous{
+    font-weight: 400;
+    text-decoration: none;
+    span{
+        text-decoration: underline;
+        &:hover{
+            text-decoration: none;
+        }
+    }
+    &::after,
+    &::before{
+        font: normal 900 1.8rem / 1 "Font Awesome 6 Free";
+        position: relative;
+        top: 2px;
+
+    }
+}
+.contact-link, 
+.nav-next{
+    &::after{
+        content: "\F105";
+        margin-left: .8rem;
+    }
+}
+.nav-next{
+    a:hover{
+        text-decoration: none;
+    }
+}
+.nav-previous{
+    &::before{
+        content: "\F104 ";
+        margin-right: .8rem;
+    }
+    a:hover{
+        text-decoration: none;
+    }
+}

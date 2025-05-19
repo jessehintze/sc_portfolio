@@ -1,0 +1,33 @@
+[2025-05-09 15:22:28] [cache_controller::purge_cache_queue_write] queue file not exist
+[2025-05-09 15:22:28] [cache_controller::purge_cache_on_post_edit] Purge Cloudflare cache for only post id 158 and related contents - Fired action: deleted_post
+[2025-05-09 15:22:28] [cache_controller::purge_cache_on_post_edit] Purge Cloudflare cache for only post id 160 and related contents - Fired action: deleted_post
+[2025-05-10 15:47:56] [cache_controller::purge_cache_queue_job] I'm the purge cache cronjob
+[2025-05-10 15:47:56] [cloudflare::purge_cache_urls_cache] Request URL: https://api.cloudflare.com/client/v4/zones/ad1c690cc94441112ba0097518bb3dbb/purge_cache
+[2025-05-10 15:47:56] [cloudflare::purge_cache_urls_cache] Request Body: {"files":["http:\/\/s1047843364.onlinehome.us\/?post_type=portfolio&p=158","http:\/\/s1047843364.onlinehome.us\/author\/jhintze\/","http:\/\/s1047843364.onlinehome.us\/author\/jhintze\/feed\/","http:\/\/s1047843364.onlinehome.us\/?post_type=portfolio&p=158feed\/","http:\/\/s1047843364.onlinehome.us\/","http:\/\/s1047843364.onlinehome.us\/?page_id=140","http:\/\/s1047843364.onlinehome.us\/?post_type=portfolio&p=160","http:\/\/s1047843364.onlinehome.us\/?post_type=portfolio&p=160feed\/"]}
+[2025-05-10 15:47:56] [cache_controller::start_cache_preloader_for_specific_urls] Adding 8 URLs to preloader queue
+[2025-05-10 15:47:58] [preloader::task] Preloading URL http://s1047843364.onlinehome.us/?post_type=portfolio&p=158
+[2025-05-10 15:47:58] [preloader::task] Error preloading URL http://s1047843364.onlinehome.us/?post_type=portfolio&p=158. Status: 404
+[2025-05-10 15:48:00] [preloader::task] Preloading URL http://s1047843364.onlinehome.us/author/jhintze/
+[2025-05-10 15:48:00] [preloader::task] URL http://s1047843364.onlinehome.us/author/jhintze/ preloaded successfully.
+[2025-05-10 15:48:01] [cache_controller::purge_urls] Purged specific URLs from Cloudflare cache
+[2025-05-10 15:48:01] [cache_controller::purge_cache_queue_job] Cache purging complete
+[2025-05-10 15:48:02] [cache_controller::purge_cache_queue_write] queue file not exist
+[2025-05-10 15:48:02] [cache_controller::purge_cache_on_post_edit] Purge Cloudflare cache for only post id 156 and related contents - Fired action: deleted_post
+[2025-05-10 15:48:02] [preloader::task] Preloading URL http://s1047843364.onlinehome.us/author/jhintze/feed/
+[2025-05-10 15:48:03] [preloader::task] URL http://s1047843364.onlinehome.us/author/jhintze/feed/ preloaded successfully.
+[2025-05-10 15:48:05] [preloader::task] Unable to find a valid URL to preload. Exit.
+[2025-05-10 15:48:05] [preloader::task] Preloading URL http://s1047843364.onlinehome.us/?post_type=portfolio&p=158feed/
+[2025-05-10 15:48:05] [cache_controller::purge_cache_queue_job] I'm the purge cache cronjob
+[2025-05-10 15:48:05] [cloudflare::purge_cache_urls_cache] Request URL: https://api.cloudflare.com/client/v4/zones/ad1c690cc94441112ba0097518bb3dbb/purge_cache
+[2025-05-10 15:48:05] [cloudflare::purge_cache_urls_cache] Request Body: {"files":["http:\/\/s1047843364.onlinehome.us\/?post_type=portfolio&p=156","http:\/\/s1047843364.onlinehome.us\/author\/jhintze\/","http:\/\/s1047843364.onlinehome.us\/author\/jhintze\/feed\/","http:\/\/s1047843364.onlinehome.us\/?post_type=portfolio&p=156","http:\/\/s1047843364.onlinehome.us\/?post_type=portfolio&p=156feed\/","http:\/\/s1047843364.onlinehome.us\/","http:\/\/s1047843364.onlinehome.us\/?page_id=140"]}
+[2025-05-10 15:48:05] [preloader::task] Error preloading URL http://s1047843364.onlinehome.us/?post_type=portfolio&p=158feed/. Status: 404
+[2025-05-10 15:48:05] [cache_controller::start_cache_preloader_for_specific_urls] Unable to start the preloader. Another preloading process is currently running.
+[2025-05-10 15:48:05] [cache_controller::purge_urls] Purged specific URLs from Cloudflare cache
+[2025-05-10 15:48:05] [cache_controller::purge_cache_queue_job] Cache purging complete
+[2025-05-10 15:48:07] [preloader::task] Preloading URL http://s1047843364.onlinehome.us/
+[2025-05-10 15:48:07] [preloader::task] URL http://s1047843364.onlinehome.us/ preloaded successfully.
+[2025-05-10 15:48:09] [preloader::task] Preloading URL http://s1047843364.onlinehome.us/?page_id=140
+[2025-05-10 15:48:10] [preloader::task] URL http://s1047843364.onlinehome.us/?page_id=140 preloaded successfully.
+[2025-05-10 15:48:12] [preloader::task] Preloading URL http://s1047843364.onlinehome.us/?post_type=portfolio&p=160
+[2025-05-10 15:48:12] [preloader::task] Error preloading URL http://s1047843364.onlinehome.us/?post_type=portfolio&p=160. Status: 404
+[2025-05-10 15:48:14] [preloader::task] Preloading complete

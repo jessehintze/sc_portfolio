@@ -1,0 +1,343 @@
+[2025-04-17 17:11:23] [upgrader::run_update_migrations] Running migrations.
+[2025-04-17 17:11:23] [upgrader::update_cache_rule] Start cache rule upgrade.
+[2025-04-17 17:11:23] [cloudflare::update_cache_rule_if_diff] Cloudflare API is not enabled or cache rule is not set. Enabled:  Rule set: 
+[2025-04-17 17:11:23] [upgrader::update_cache_rule] Cache rule updated.
+[2025-04-17 17:15:18] [fallback_cache::fallback_cache_add_define_cache_wp_config] Constant WP_CACHE does not exists. I will try to add in into wp-config.php
+[2025-04-17 17:28:46] [cloudflare::get_zone_id_list_cache] Request for page 1 - URL: https://api.cloudflare.com/client/v4/zones?name=squarecat.studio
+[2025-04-17 17:28:46] [cloudflare::update_cache_rule_if_diff] Cloudflare API is not enabled or cache rule is not set. Enabled:  Rule set: 
+[2025-04-18 01:06:08] [cloudflare::get_zone_id_list_cache] Request for page 1 - URL: https://api.cloudflare.com/client/v4/zones?name=squarecat.studio
+[2025-04-18 01:06:08] [cloudflare::update_cache_rule_if_diff] Cloudflare API is not enabled or cache rule is not set. Enabled:  Rule set: 
+[2025-04-18 01:06:29] [cloudflare::get_zone_id_list_cache] Request for page 1 - URL: https://api.cloudflare.com/client/v4/zones?name=squarecat.studio
+[2025-04-18 01:06:29] [cloudflare::update_cache_rule_if_diff] Cloudflare API is not enabled or cache rule is not set. Enabled:  Rule set: 
+[2025-04-18 01:11:24] [cloudflare::get_zone_id_list_cache] Request for page 1 - URL: https://api.cloudflare.com/client/v4/zones?page=1&per_page=50
+[2025-04-18 01:11:24] [cloudflare::get_zone_id_list_cache] Response for page 1: {"result":[{"id":"ad1c690cc94441112ba0097518bb3dbb","name":"squarecat.studio","status":"active","paused":false,"type":"full","development_mode":0,"name_servers":["kareem.ns.cloudflare.com","meg.ns.cloudflare.com"],"original_name_servers":["dns2.namecheaphosting.com","dns1.namecheaphosting.com"],"original_registrar":"namecheap, inc. (id: 1068)","original_dnshost":null,"modified_on":"2025-04-17T17:53:06.536022Z","created_on":"2025-04-17T17:23:27.779465Z","activated_on":"2025-04-17T17:53:06.536022Z","meta":{"step":2,"custom_certificate_quota":0,"page_rule_quota":3,"phishing_detected":false},"owner":{"id":null,"type":"user","email":null},"account":{"id":"2ad510df850ac67baa235602d457f7ea","name":"Me@jessehintze.com's Account"},"tenant":{"id":null,"name":null},"tenant_unit":{"id":null},"permissions":["#zone_settings:read","#zone:read","#stream:edit","#access:read","#analytics:read","#waf:read","#member:edit","#waf:edit","#healthchecks:read","#teams:read","#access:edit","#subscription:edit","#magic:read","#magic:edit","#ssl:read","#zone_settings:edit","#image:read","#image:edit","#ssl:edit","#dns_records:read","#organization:edit","#zaraz:read","#lb:read","#logs:edit","#billing:read","#query_cache:read","#query_cache:edit","#dns_records:edit","#organization:read","#worker:edit","#worker:read","#fbm:edit","#stream:read","#ces_phishguard:read","#blocks:read","#blocks:edit","#teams:edit","#ces_search:action","#ces_search:read","#ces_search:preview","#ces_search:raw","#ces_search:trace","#teams:pii","#billing:edit","#healthchecks:edit","#lb:edit","#http_applications:read","#http_applications:edit","#cache_purge:edit","#waitingroom:edit","#fbm_acc:edit","#waitingroom:read","#teams:report","#logs:read","#cfone_read","#cfone_edit","#dex:edit","#integration:read","#integration:edit","#ces_integration:edit","#ces_integration:read","#zone:edit","#fbm:read","#legal:read","#subscription:read","#dash_sso:read","#member:read","#ces_submissions:read","#integration:install","#auditlogs:read","#cds:edit","#legal:edit","#cds_compute_account:edit","#web3:read","#web3:edit","#resilience:read","#dash_sso:edit","#resilience:edit","#ces_analytics:read","#vectorize:read","#vectorize:edit","#cds_compute_account:read","#api_gateway:read","#api_gateway:edit","#ces_settings:edit","#ces_settings:read","#zone_versioning:read","#zone_versioning:edit","#app:edit","#r2_bucket_item:read","#r2_bucket_item:edit","#zaraz:edit","#r2_bucket:read","#r2_bucket:edit","#dex:read","#r2_bucket_warehouse:read","#r2_bucket_warehouse:edit","#cds:read","#zaraz:publish","#page_shield:read","#page_shield:edit"],"plan":{"id":"0feeeeeeeeeeeeeeeeeeeeeeeeeeeeee","name":"Free Website","price":0,"currency":"USD","frequency":"","is_subscribed":false,"can_subscribe":false,"legacy_id":"free","legacy_discount":false,"externally_managed":false}}],"result_info":{"page":1,"per_page":50,"total_pages":1,"count":1,"total_count":1},"success":true,"errors":[],"messages":[]}
+[2025-04-18 01:11:24] [cloudflare::update_cache_rule_if_diff] Cloudflare API is not enabled or cache rule is not set. Enabled:  Rule set: 
+[2025-04-18 01:11:37] [cloudflare::change_browser_cache_ttl_cache] Request URL: https://api.cloudflare.com/client/v4/zones/ad1c690cc94441112ba0097518bb3dbb/settings/browser_cache_ttl
+[2025-04-18 01:11:37] [cloudflare::change_browser_cache_ttl_cache] Request body: {"value":0}
+[2025-04-18 01:11:39] [cloudflare::create_ruleset_cache] Ruleset ID created for zone ad1c690cc94441112ba0097518bb3dbb: a7c3ad31429947d9ab803b158170b485
+[2025-04-18 01:11:39] [cloudflare::create_rule_cache] Rule ID created for zone ad1c690cc94441112ba0097518bb3dbb: 23367db5d37747c2b580d16a7cab67df
+[2025-04-18 01:11:40] [cloudflare::purge_cache] Cache purged successfully.
+[2025-04-18 01:11:40] [cloudflare::start_preloader_for_all_urls] Preload sitemap https://squarecat.studio/wp-sitemap.xml
+[2025-04-18 01:11:42] [cloudflare::start_preloader_for_all_urls] Getting last published posts for post types: Array
+(
+    [0] => post
+    [1] => page
+    [2] => portfolio
+)
+
+[2025-04-18 01:11:43] [cache_controller::start_cache_preloader_for_specific_urls] Adding 20 URLs to preloader queue
+[2025-04-18 01:11:46] [preloader::task] Preloading URL https://squarecat.studio/portfolio/be-fast-sportgear-ecommerce-site/
+[2025-04-18 01:11:48] [preloader::task] URL https://squarecat.studio/portfolio/be-fast-sportgear-ecommerce-site/ preloaded successfully.
+[2025-04-18 01:11:48] [cloudflare::update_cache_rule_if_diff] Cloudflare API is not enabled or cache rule is not set. Enabled: 1 Rule set: 
+[2025-04-18 01:11:50] [preloader::task] Preloading URL https://squarecat.studio/portfolio/royall-credit-union-customer-website/
+[2025-04-18 01:11:52] [preloader::task] URL https://squarecat.studio/portfolio/royall-credit-union-customer-website/ preloaded successfully.
+[2025-04-18 01:11:54] [preloader::task] Preloading URL https://squarecat.studio/portfolio/crumb-deli-marketing-site/
+[2025-04-18 01:11:54] [preloader::task] URL https://squarecat.studio/portfolio/crumb-deli-marketing-site/ preloaded successfully.
+[2025-04-18 01:11:56] [preloader::task] Preloading URL https://squarecat.studio/portfolio/road-adventures-marketing-site/
+[2025-04-18 01:11:58] [preloader::task] URL https://squarecat.studio/portfolio/road-adventures-marketing-site/ preloaded successfully.
+[2025-04-18 01:12:00] [preloader::task] Preloading URL https://squarecat.studio/portfolio/ultrapure-marketing-site/
+[2025-04-18 01:12:01] [preloader::task] URL https://squarecat.studio/portfolio/ultrapure-marketing-site/ preloaded successfully.
+[2025-04-18 01:12:03] [preloader::task] Preloading URL https://squarecat.studio/portfolio/uv-vodka-marketing-site/
+[2025-04-18 01:12:06] [preloader::task] URL https://squarecat.studio/portfolio/uv-vodka-marketing-site/ preloaded successfully.
+[2025-04-18 01:12:09] [preloader::task] Preloading URL https://squarecat.studio/portfolio/woodworkers-hardware-ecommerce-site/
+[2025-04-18 01:12:10] [preloader::task] URL https://squarecat.studio/portfolio/woodworkers-hardware-ecommerce-site/ preloaded successfully.
+[2025-04-18 01:12:12] [preloader::task] Preloading URL https://squarecat.studio/portfolio/xperitas-marketing-site/
+[2025-04-18 01:12:14] [preloader::task] URL https://squarecat.studio/portfolio/xperitas-marketing-site/ preloaded successfully.
+[2025-04-18 01:12:16] [preloader::task] Preloading URL https://squarecat.studio/portfolio/bulk-reef-suppy-ecommerce-site/
+[2025-04-18 01:12:18] [preloader::task] URL https://squarecat.studio/portfolio/bulk-reef-suppy-ecommerce-site/ preloaded successfully.
+[2025-04-18 01:12:20] [preloader::task] Preloading URL https://squarecat.studio/portfolio/irish-fair-marketing-site/
+[2025-04-18 01:12:22] [preloader::task] URL https://squarecat.studio/portfolio/irish-fair-marketing-site/ preloaded successfully.
+[2025-04-18 01:12:24] [preloader::task] Preloading URL https://squarecat.studio/portfolio/ecommerce-site/
+[2025-04-18 01:12:26] [preloader::task] URL https://squarecat.studio/portfolio/ecommerce-site/ preloaded successfully.
+[2025-04-18 01:12:28] [preloader::task] Preloading URL https://squarecat.studio/portfolio/private-label-avr-logo/
+[2025-04-18 01:12:30] [preloader::task] URL https://squarecat.studio/portfolio/private-label-avr-logo/ preloaded successfully.
+[2025-04-18 01:12:33] [preloader::task] Preloading URL https://squarecat.studio/portfolio/vr-junkies-college-flyer/
+[2025-04-18 01:12:35] [preloader::task] URL https://squarecat.studio/portfolio/vr-junkies-college-flyer/ preloaded successfully.
+[2025-04-18 01:12:38] [preloader::task] Preloading URL https://squarecat.studio/portfolio/experience-vr-promo/
+[2025-04-18 01:12:39] [preloader::task] URL https://squarecat.studio/portfolio/experience-vr-promo/ preloaded successfully.
+[2025-04-18 01:12:41] [preloader::task] Preloading URL https://squarecat.studio/portfolio/ar-craft-logo/
+[2025-04-18 01:12:44] [preloader::task] URL https://squarecat.studio/portfolio/ar-craft-logo/ preloaded successfully.
+[2025-04-18 01:12:46] [preloader::task] Preloading URL https://squarecat.studio/portfolio/vrj-popup-banner/
+[2025-04-18 01:12:48] [preloader::task] URL https://squarecat.studio/portfolio/vrj-popup-banner/ preloaded successfully.
+[2025-04-18 01:12:50] [preloader::task] Preloading URL https://squarecat.studio/uncategorized/sample-blog-post/
+[2025-04-18 01:12:52] [preloader::task] URL https://squarecat.studio/uncategorized/sample-blog-post/ preloaded successfully.
+[2025-04-18 01:12:57] [preloader::task] Preloading URL https://squarecat.studio/
+[2025-04-18 01:12:58] [preloader::task] URL https://squarecat.studio/ preloaded successfully.
+[2025-04-18 01:13:00] [preloader::task] Preloading URL https://squarecat.studio/about/
+[2025-04-18 01:13:04] [preloader::task] URL https://squarecat.studio/about/ preloaded successfully.
+[2025-04-18 01:13:06] [preloader::task] Preloading URL https://squarecat.studio/work/
+[2025-04-18 01:13:08] [preloader::task] URL https://squarecat.studio/work/ preloaded successfully.
+[2025-04-18 01:13:11] [preloader::task] Preloading complete
+[2025-04-18 11:55:27] [cache_controller::ajax_purge_whole_cache] Purge whole Cloudflare cache
+[2025-04-18 11:55:27] [cloudflare::purge_cache] Cache purged successfully.
+[2025-04-18 11:55:27] [cloudflare::start_preloader_for_all_urls] Preload sitemap https://squarecat.studio/wp-sitemap.xml
+[2025-04-18 11:55:29] [cloudflare::start_preloader_for_all_urls] Getting last published posts for post types: Array
+(
+    [0] => post
+    [1] => page
+    [2] => portfolio
+)
+
+[2025-04-18 11:55:29] [cache_controller::start_cache_preloader_for_specific_urls] Adding 20 URLs to preloader queue
+[2025-04-18 11:55:30] [preloader::task] Preloading URL https://squarecat.studio/portfolio/be-fast-sportgear-ecommerce-site/
+[2025-04-18 11:55:32] [preloader::task] URL https://squarecat.studio/portfolio/be-fast-sportgear-ecommerce-site/ preloaded successfully.
+[2025-04-18 11:55:34] [preloader::task] Preloading URL https://squarecat.studio/portfolio/royall-credit-union-customer-website/
+[2025-04-18 11:55:34] [cache_controller::purge_all] Purged whole Cloudflare cache
+[2025-04-18 11:55:34] [cloudflare::start_preloader_for_all_urls] Preload sitemap https://squarecat.studio/wp-sitemap.xml
+[2025-04-18 11:55:35] [preloader::task] URL https://squarecat.studio/portfolio/royall-credit-union-customer-website/ preloaded successfully.
+[2025-04-18 11:55:35] [cloudflare::start_preloader_for_all_urls] Getting last published posts for post types: Array
+(
+    [0] => post
+    [1] => page
+    [2] => portfolio
+)
+
+[2025-04-18 11:55:35] [cache_controller::start_cache_preloader_for_specific_urls] Unable to start the preloader. Another preloading process is currently running.
+[2025-04-18 11:55:38] [preloader::task] Preloading URL https://squarecat.studio/portfolio/crumb-deli-marketing-site/
+[2025-04-18 11:55:39] [preloader::task] URL https://squarecat.studio/portfolio/crumb-deli-marketing-site/ preloaded successfully.
+[2025-04-18 11:55:41] [preloader::task] Preloading URL https://squarecat.studio/portfolio/road-adventures-marketing-site/
+[2025-04-18 11:55:42] [preloader::task] URL https://squarecat.studio/portfolio/road-adventures-marketing-site/ preloaded successfully.
+[2025-04-18 11:55:44] [preloader::task] Preloading URL https://squarecat.studio/portfolio/ultrapure-marketing-site/
+[2025-04-18 11:55:46] [preloader::task] URL https://squarecat.studio/portfolio/ultrapure-marketing-site/ preloaded successfully.
+[2025-04-18 11:55:48] [preloader::task] Preloading URL https://squarecat.studio/portfolio/uv-vodka-marketing-site/
+[2025-04-18 11:55:49] [preloader::task] URL https://squarecat.studio/portfolio/uv-vodka-marketing-site/ preloaded successfully.
+[2025-04-18 11:55:52] [preloader::task] Preloading URL https://squarecat.studio/portfolio/woodworkers-hardware-ecommerce-site/
+[2025-04-18 11:55:52] [preloader::task] URL https://squarecat.studio/portfolio/woodworkers-hardware-ecommerce-site/ preloaded successfully.
+[2025-04-18 11:55:54] [preloader::task] Preloading URL https://squarecat.studio/portfolio/xperitas-marketing-site/
+[2025-04-18 11:55:56] [preloader::task] URL https://squarecat.studio/portfolio/xperitas-marketing-site/ preloaded successfully.
+[2025-04-18 11:55:58] [preloader::task] Preloading URL https://squarecat.studio/portfolio/bulk-reef-suppy-ecommerce-site/
+[2025-04-18 11:55:59] [preloader::task] URL https://squarecat.studio/portfolio/bulk-reef-suppy-ecommerce-site/ preloaded successfully.
+[2025-04-18 11:56:01] [preloader::task] Preloading URL https://squarecat.studio/portfolio/irish-fair-marketing-site/
+[2025-04-18 11:56:02] [preloader::task] URL https://squarecat.studio/portfolio/irish-fair-marketing-site/ preloaded successfully.
+[2025-04-18 11:56:04] [preloader::task] Preloading URL https://squarecat.studio/portfolio/ecommerce-site/
+[2025-04-18 11:56:05] [preloader::task] URL https://squarecat.studio/portfolio/ecommerce-site/ preloaded successfully.
+[2025-04-18 11:56:07] [preloader::task] Preloading URL https://squarecat.studio/portfolio/private-label-avr-logo/
+[2025-04-18 11:56:08] [preloader::task] URL https://squarecat.studio/portfolio/private-label-avr-logo/ preloaded successfully.
+[2025-04-18 11:56:10] [preloader::task] Preloading URL https://squarecat.studio/portfolio/vr-junkies-college-flyer/
+[2025-04-18 11:56:12] [preloader::task] URL https://squarecat.studio/portfolio/vr-junkies-college-flyer/ preloaded successfully.
+[2025-04-18 11:56:15] [preloader::task] Preloading URL https://squarecat.studio/portfolio/experience-vr-promo/
+[2025-04-18 11:56:16] [preloader::task] URL https://squarecat.studio/portfolio/experience-vr-promo/ preloaded successfully.
+[2025-04-18 11:56:18] [preloader::task] Preloading URL https://squarecat.studio/portfolio/ar-craft-logo/
+[2025-04-18 11:56:20] [preloader::task] URL https://squarecat.studio/portfolio/ar-craft-logo/ preloaded successfully.
+[2025-04-18 11:56:22] [preloader::task] Preloading URL https://squarecat.studio/portfolio/vrj-popup-banner/
+[2025-04-18 11:56:24] [preloader::task] URL https://squarecat.studio/portfolio/vrj-popup-banner/ preloaded successfully.
+[2025-04-18 11:56:26] [preloader::task] Preloading URL https://squarecat.studio/uncategorized/sample-blog-post/
+[2025-04-18 11:56:27] [preloader::task] URL https://squarecat.studio/uncategorized/sample-blog-post/ preloaded successfully.
+[2025-04-18 11:56:29] [preloader::task] Preloading URL https://squarecat.studio/
+[2025-04-18 11:56:31] [preloader::task] URL https://squarecat.studio/ preloaded successfully.
+[2025-04-18 11:56:33] [preloader::task] Preloading URL https://squarecat.studio/about/
+[2025-04-18 11:56:34] [preloader::task] URL https://squarecat.studio/about/ preloaded successfully.
+[2025-04-18 11:56:37] [preloader::task] Preloading URL https://squarecat.studio/work/
+[2025-04-18 11:56:38] [preloader::task] URL https://squarecat.studio/work/ preloaded successfully.
+[2025-04-18 11:56:40] [preloader::task] Preloading complete
+[2025-04-18 15:30:46] [cache_controller::purge_cache_queue_write] queue file not exist
+[2025-04-18 15:30:46] [cache_controller::purge_cache_on_post_edit] Purge Cloudflare cache for only post id 422 and related contents - Fired action: clean_post_cache
+[2025-04-18 15:31:52] [cache_controller::purge_cache_queue_job] I'm the purge cache cronjob
+[2025-04-18 15:31:52] [cloudflare::purge_cache_urls_cache] Request URL: https://api.cloudflare.com/client/v4/zones/ad1c690cc94441112ba0097518bb3dbb/purge_cache
+[2025-04-18 15:31:52] [cloudflare::purge_cache_urls_cache] Request Body: {"files":["https:\/\/squarecat.studio\/uncategorized\/51f37b098befc76074aab47527ed1cad\/","https:\/\/squarecat.studio\/author\/jhintze\/","https:\/\/squarecat.studio\/author\/jhintze\/feed\/","https:\/\/squarecat.studio\/","https:\/\/squarecat.studio\/?page_id=140"]}
+[2025-04-18 15:31:52] [cache_controller::start_cache_preloader_for_specific_urls] Adding 5 URLs to preloader queue
+[2025-04-18 15:31:54] [preloader::task] Preloading URL https://squarecat.studio/uncategorized/51f37b098befc76074aab47527ed1cad/
+[2025-04-18 15:31:56] [preloader::task] Error preloading URL https://squarecat.studio/uncategorized/51f37b098befc76074aab47527ed1cad/. Status: 404
+[2025-04-18 15:31:57] [cache_controller::purge_urls] Purged specific URLs from Cloudflare cache
+[2025-04-18 15:31:57] [cache_controller::purge_cache_queue_job] Cache purging complete
+[2025-04-18 15:31:58] [preloader::task] Preloading URL https://squarecat.studio/author/jhintze/
+[2025-04-18 15:32:02] [preloader::task] URL https://squarecat.studio/author/jhintze/ preloaded successfully.
+[2025-04-18 15:32:04] [preloader::task] Preloading URL https://squarecat.studio/author/jhintze/feed/
+[2025-04-18 15:32:06] [preloader::task] URL https://squarecat.studio/author/jhintze/feed/ preloaded successfully.
+[2025-04-18 15:32:08] [preloader::task] Preloading URL https://squarecat.studio/
+[2025-04-18 15:32:11] [preloader::task] URL https://squarecat.studio/ preloaded successfully.
+[2025-04-18 15:32:13] [preloader::task] Preloading URL https://squarecat.studio/?page_id=140
+[2025-04-18 15:32:15] [preloader::task] URL https://squarecat.studio/?page_id=140 preloaded successfully.
+[2025-04-18 15:32:17] [preloader::task] Preloading complete
+[2025-04-18 15:32:34] [cache_controller::ajax_purge_whole_cache] Purge whole Cloudflare cache
+[2025-04-18 15:32:34] [cloudflare::purge_cache] Cache purged successfully.
+[2025-04-18 15:32:34] [cloudflare::start_preloader_for_all_urls] Preload sitemap https://squarecat.studio/wp-sitemap.xml
+[2025-04-18 15:32:37] [cloudflare::start_preloader_for_all_urls] Getting last published posts for post types: Array
+(
+    [0] => post
+    [1] => page
+    [2] => portfolio
+)
+
+[2025-04-18 15:32:37] [cache_controller::start_cache_preloader_for_specific_urls] Adding 20 URLs to preloader queue
+[2025-04-18 15:32:39] [preloader::task] Preloading URL https://squarecat.studio/portfolio/be-fast-sportgear-ecommerce-site/
+[2025-04-18 15:32:41] [preloader::task] URL https://squarecat.studio/portfolio/be-fast-sportgear-ecommerce-site/ preloaded successfully.
+[2025-04-18 15:32:42] [cache_controller::purge_all] Purged whole Cloudflare cache
+[2025-04-18 15:32:42] [cloudflare::start_preloader_for_all_urls] Preload sitemap https://squarecat.studio/wp-sitemap.xml
+[2025-04-18 15:32:43] [preloader::task] Preloading URL https://squarecat.studio/portfolio/royall-credit-union-customer-website/
+[2025-04-18 15:32:44] [cloudflare::start_preloader_for_all_urls] Getting last published posts for post types: Array
+(
+    [0] => post
+    [1] => page
+    [2] => portfolio
+)
+
+[2025-04-18 15:32:44] [cache_controller::start_cache_preloader_for_specific_urls] Unable to start the preloader. Another preloading process is currently running.
+[2025-04-18 15:32:45] [preloader::task] URL https://squarecat.studio/portfolio/royall-credit-union-customer-website/ preloaded successfully.
+[2025-04-18 15:32:47] [preloader::task] Preloading URL https://squarecat.studio/portfolio/crumb-deli-marketing-site/
+[2025-04-18 15:32:49] [preloader::task] URL https://squarecat.studio/portfolio/crumb-deli-marketing-site/ preloaded successfully.
+[2025-04-18 15:32:51] [preloader::task] Preloading URL https://squarecat.studio/portfolio/road-adventures-marketing-site/
+[2025-04-18 15:32:54] [preloader::task] URL https://squarecat.studio/portfolio/road-adventures-marketing-site/ preloaded successfully.
+[2025-04-18 15:32:56] [preloader::task] Preloading URL https://squarecat.studio/portfolio/ultrapure-marketing-site/
+[2025-04-18 15:32:59] [preloader::task] URL https://squarecat.studio/portfolio/ultrapure-marketing-site/ preloaded successfully.
+[2025-04-18 15:33:03] [preloader::task] Preloading URL https://squarecat.studio/portfolio/uv-vodka-marketing-site/
+[2025-04-18 15:33:04] [preloader::task] URL https://squarecat.studio/portfolio/uv-vodka-marketing-site/ preloaded successfully.
+[2025-04-18 15:33:06] [preloader::task] Preloading URL https://squarecat.studio/portfolio/woodworkers-hardware-ecommerce-site/
+[2025-04-18 15:33:09] [preloader::task] URL https://squarecat.studio/portfolio/woodworkers-hardware-ecommerce-site/ preloaded successfully.
+[2025-04-18 15:33:11] [preloader::task] Preloading URL https://squarecat.studio/portfolio/xperitas-marketing-site/
+[2025-04-18 15:33:13] [preloader::task] URL https://squarecat.studio/portfolio/xperitas-marketing-site/ preloaded successfully.
+[2025-04-18 15:33:15] [preloader::task] Preloading URL https://squarecat.studio/portfolio/bulk-reef-suppy-ecommerce-site/
+[2025-04-18 15:33:17] [preloader::task] URL https://squarecat.studio/portfolio/bulk-reef-suppy-ecommerce-site/ preloaded successfully.
+[2025-04-18 15:33:19] [preloader::task] Preloading URL https://squarecat.studio/portfolio/irish-fair-marketing-site/
+[2025-04-18 15:33:20] [preloader::task] URL https://squarecat.studio/portfolio/irish-fair-marketing-site/ preloaded successfully.
+[2025-04-18 15:33:22] [preloader::task] Preloading URL https://squarecat.studio/portfolio/ecommerce-site/
+[2025-04-18 15:33:24] [preloader::task] URL https://squarecat.studio/portfolio/ecommerce-site/ preloaded successfully.
+[2025-04-18 15:33:27] [preloader::task] Preloading URL https://squarecat.studio/portfolio/private-label-avr-logo/
+[2025-04-18 15:33:30] [preloader::task] URL https://squarecat.studio/portfolio/private-label-avr-logo/ preloaded successfully.
+[2025-04-18 15:33:32] [preloader::task] Preloading URL https://squarecat.studio/portfolio/vr-junkies-college-flyer/
+[2025-04-18 15:33:35] [preloader::task] URL https://squarecat.studio/portfolio/vr-junkies-college-flyer/ preloaded successfully.
+[2025-04-18 15:33:37] [preloader::task] Preloading URL https://squarecat.studio/portfolio/experience-vr-promo/
+[2025-04-18 15:33:38] [preloader::task] URL https://squarecat.studio/portfolio/experience-vr-promo/ preloaded successfully.
+[2025-04-18 15:33:40] [preloader::task] Preloading URL https://squarecat.studio/portfolio/ar-craft-logo/
+[2025-04-18 15:33:42] [preloader::task] URL https://squarecat.studio/portfolio/ar-craft-logo/ preloaded successfully.
+[2025-04-18 15:33:44] [preloader::task] Preloading URL https://squarecat.studio/portfolio/vrj-popup-banner/
+[2025-04-18 15:33:45] [preloader::task] URL https://squarecat.studio/portfolio/vrj-popup-banner/ preloaded successfully.
+[2025-04-18 15:33:49] [preloader::task] Preloading URL https://squarecat.studio/uncategorized/sample-blog-post/
+[2025-04-18 15:33:51] [preloader::task] URL https://squarecat.studio/uncategorized/sample-blog-post/ preloaded successfully.
+[2025-04-18 15:33:53] [preloader::task] Preloading URL https://squarecat.studio/
+[2025-04-18 15:33:55] [preloader::task] URL https://squarecat.studio/ preloaded successfully.
+[2025-04-18 15:33:57] [preloader::task] Preloading URL https://squarecat.studio/about/
+[2025-04-18 15:33:58] [preloader::task] URL https://squarecat.studio/about/ preloaded successfully.
+[2025-04-18 15:34:01] [preloader::task] Preloading URL https://squarecat.studio/work/
+[2025-04-18 15:34:02] [preloader::task] URL https://squarecat.studio/work/ preloaded successfully.
+[2025-04-18 15:34:05] [preloader::task] Preloading complete
+[2025-04-18 15:40:46] [cache_controller::ajax_purge_whole_cache] Purge whole Cloudflare cache
+[2025-04-18 15:40:47] [cloudflare::purge_cache] Cache purged successfully.
+[2025-04-18 15:40:47] [cloudflare::start_preloader_for_all_urls] Preload sitemap https://squarecat.studio/wp-sitemap.xml
+[2025-04-18 15:40:51] [cloudflare::start_preloader_for_all_urls] Getting last published posts for post types: Array
+(
+    [0] => post
+    [1] => page
+    [2] => portfolio
+)
+
+[2025-04-18 15:40:51] [cache_controller::start_cache_preloader_for_specific_urls] Adding 20 URLs to preloader queue
+[2025-04-18 15:40:55] [preloader::task] Preloading URL https://squarecat.studio/portfolio/be-fast-sportgear-ecommerce-site/
+[2025-04-18 15:40:56] [cache_controller::purge_all] Purged whole Cloudflare cache
+[2025-04-18 15:40:56] [cloudflare::start_preloader_for_all_urls] Preload sitemap https://squarecat.studio/wp-sitemap.xml
+[2025-04-18 15:40:59] [preloader::task] URL https://squarecat.studio/portfolio/be-fast-sportgear-ecommerce-site/ preloaded successfully.
+[2025-04-18 15:41:01] [cloudflare::start_preloader_for_all_urls] Getting last published posts for post types: Array
+(
+    [0] => post
+    [1] => page
+    [2] => portfolio
+)
+
+[2025-04-18 15:41:01] [cache_controller::start_cache_preloader_for_specific_urls] Unable to start the preloader. Another preloading process is currently running.
+[2025-04-18 15:41:01] [preloader::task] Preloading URL https://squarecat.studio/portfolio/royall-credit-union-customer-website/
+[2025-04-18 15:41:06] [preloader::task] URL https://squarecat.studio/portfolio/royall-credit-union-customer-website/ preloaded successfully.
+[2025-04-18 15:41:08] [preloader::task] Preloading URL https://squarecat.studio/portfolio/crumb-deli-marketing-site/
+[2025-04-18 15:41:13] [preloader::task] URL https://squarecat.studio/portfolio/crumb-deli-marketing-site/ preloaded successfully.
+[2025-04-18 15:41:19] [preloader::task] Preloading URL https://squarecat.studio/portfolio/road-adventures-marketing-site/
+[2025-04-18 15:41:22] [preloader::task] URL https://squarecat.studio/portfolio/road-adventures-marketing-site/ preloaded successfully.
+[2025-04-18 15:41:24] [preloader::task] Preloading URL https://squarecat.studio/portfolio/ultrapure-marketing-site/
+[2025-04-18 15:41:27] [preloader::task] URL https://squarecat.studio/portfolio/ultrapure-marketing-site/ preloaded successfully.
+[2025-04-18 15:41:29] [preloader::task] Preloading URL https://squarecat.studio/portfolio/uv-vodka-marketing-site/
+[2025-04-18 15:41:32] [preloader::task] URL https://squarecat.studio/portfolio/uv-vodka-marketing-site/ preloaded successfully.
+[2025-04-18 15:41:34] [preloader::task] Preloading URL https://squarecat.studio/portfolio/woodworkers-hardware-ecommerce-site/
+[2025-04-18 15:41:37] [preloader::task] URL https://squarecat.studio/portfolio/woodworkers-hardware-ecommerce-site/ preloaded successfully.
+[2025-04-18 15:41:42] [preloader::task] Preloading URL https://squarecat.studio/portfolio/xperitas-marketing-site/
+[2025-04-18 15:41:44] [preloader::task] URL https://squarecat.studio/portfolio/xperitas-marketing-site/ preloaded successfully.
+[2025-04-18 15:41:46] [preloader::task] Preloading URL https://squarecat.studio/portfolio/bulk-reef-suppy-ecommerce-site/
+[2025-04-18 15:41:51] [preloader::task] URL https://squarecat.studio/portfolio/bulk-reef-suppy-ecommerce-site/ preloaded successfully.
+[2025-04-18 15:41:53] [preloader::task] Preloading URL https://squarecat.studio/portfolio/irish-fair-marketing-site/
+[2025-04-18 15:41:56] [preloader::task] URL https://squarecat.studio/portfolio/irish-fair-marketing-site/ preloaded successfully.
+[2025-04-18 15:41:58] [preloader::task] Preloading URL https://squarecat.studio/portfolio/ecommerce-site/
+[2025-04-18 15:42:01] [preloader::task] URL https://squarecat.studio/portfolio/ecommerce-site/ preloaded successfully.
+[2025-04-18 15:42:05] [preloader::task] Preloading URL https://squarecat.studio/portfolio/private-label-avr-logo/
+[2025-04-18 15:42:08] [preloader::task] URL https://squarecat.studio/portfolio/private-label-avr-logo/ preloaded successfully.
+[2025-04-18 15:42:10] [preloader::task] Preloading URL https://squarecat.studio/portfolio/vr-junkies-college-flyer/
+[2025-04-18 15:42:14] [preloader::task] URL https://squarecat.studio/portfolio/vr-junkies-college-flyer/ preloaded successfully.
+[2025-04-18 15:42:16] [preloader::task] Preloading URL https://squarecat.studio/portfolio/experience-vr-promo/
+[2025-04-18 15:42:20] [preloader::task] URL https://squarecat.studio/portfolio/experience-vr-promo/ preloaded successfully.
+[2025-04-18 15:42:22] [preloader::task] Preloading URL https://squarecat.studio/portfolio/ar-craft-logo/
+[2025-04-18 15:42:25] [preloader::task] URL https://squarecat.studio/portfolio/ar-craft-logo/ preloaded successfully.
+[2025-04-18 15:42:31] [preloader::task] Preloading URL https://squarecat.studio/portfolio/vrj-popup-banner/
+[2025-04-18 15:42:36] [preloader::task] URL https://squarecat.studio/portfolio/vrj-popup-banner/ preloaded successfully.
+[2025-04-18 15:42:38] [preloader::task] Preloading URL https://squarecat.studio/uncategorized/sample-blog-post/
+[2025-04-18 15:42:42] [preloader::task] URL https://squarecat.studio/uncategorized/sample-blog-post/ preloaded successfully.
+[2025-04-18 15:42:44] [preloader::task] Preloading URL https://squarecat.studio/
+[2025-04-18 15:42:48] [preloader::task] URL https://squarecat.studio/ preloaded successfully.
+[2025-04-18 15:42:50] [preloader::task] Preloading URL https://squarecat.studio/about/
+[2025-04-18 15:42:53] [preloader::task] URL https://squarecat.studio/about/ preloaded successfully.
+[2025-04-18 15:42:58] [preloader::task] Preloading URL https://squarecat.studio/work/
+[2025-04-18 15:43:01] [preloader::task] URL https://squarecat.studio/work/ preloaded successfully.
+[2025-04-18 15:43:03] [preloader::task] Preloading complete
+[2025-04-24 05:35:10] [cache_controller::purge_cache_queue_write] queue file not exist
+[2025-04-24 05:35:10] [cache_controller::purge_cache_on_post_edit] Purge Cloudflare cache for only post id 255 and related contents - Fired action: deleted_post
+[2025-04-24 05:40:57] [cache_controller::purge_cache_queue_job] I'm the purge cache cronjob
+[2025-04-24 05:40:57] [cloudflare::purge_cache_urls_cache] Request URL: https://api.cloudflare.com/client/v4/zones/ad1c690cc94441112ba0097518bb3dbb/purge_cache
+[2025-04-24 05:40:57] [cloudflare::purge_cache_urls_cache] Request Body: {"files":["https:\/\/squarecat.studio\/?p=255","https:\/\/squarecat.studio\/author\/jhintze\/","https:\/\/squarecat.studio\/author\/jhintze\/feed\/","https:\/\/squarecat.studio\/?p=255","https:\/\/squarecat.studio\/?p=255feed\/","https:\/\/squarecat.studio\/","https:\/\/squarecat.studio\/?page_id=140"]}
+[2025-04-24 05:40:57] [cache_controller::start_cache_preloader_for_specific_urls] Adding 6 URLs to preloader queue
+[2025-04-24 05:40:59] [preloader::task] Preloading URL https://squarecat.studio/?p=255
+[2025-04-24 05:41:00] [preloader::task] Error preloading URL https://squarecat.studio/?p=255. Status: 404
+[2025-04-24 05:41:02] [preloader::task] Preloading URL https://squarecat.studio/author/jhintze/
+[2025-04-24 05:41:03] [cache_controller::purge_urls] Purged specific URLs from Cloudflare cache
+[2025-04-24 05:41:03] [cache_controller::purge_cache_queue_job] Cache purging complete
+[2025-04-24 05:41:03] [preloader::task] URL https://squarecat.studio/author/jhintze/ preloaded successfully.
+[2025-04-24 05:41:05] [preloader::task] Preloading URL https://squarecat.studio/author/jhintze/feed/
+[2025-04-24 05:41:07] [preloader::task] URL https://squarecat.studio/author/jhintze/feed/ preloaded successfully.
+[2025-04-24 05:41:09] [preloader::task] Unable to find a valid URL to preload. Exit.
+[2025-04-24 05:41:09] [preloader::task] Preloading URL https://squarecat.studio/?p=255feed/
+[2025-04-24 05:41:10] [preloader::task] Error preloading URL https://squarecat.studio/?p=255feed/. Status: 404
+[2025-04-24 05:41:12] [preloader::task] Preloading URL https://squarecat.studio/
+[2025-04-24 05:41:14] [preloader::task] URL https://squarecat.studio/ preloaded successfully.
+[2025-04-24 05:41:16] [preloader::task] Preloading complete
+[2025-05-12 16:58:14] [cloudflare::update_cache_rule_if_diff] Start cache rule upgrade.
+[2025-05-12 16:58:15] [cloudflare::update_cache_rule_if_diff] Existing rule: Array
+(
+    [action] => set_cache_settings
+    [action_parameters] => Array
+        (
+            [browser_ttl] => Array
+                (
+                    [mode] => respect_origin
+                )
+
+            [cache] => 1
+        )
+
+    [description] => [DO NOT EDIT] WP Super Page Cache Plugin rules for https://squarecat.studio
+    [enabled] => 1
+    [expression] => (http.host wildcard "squarecat.studio*" and not http.cookie contains "comment_" and not http.cookie contains "woocommerce_" and not http.cookie contains "wordpress" and not http.cookie contains "xf_" and not http.cookie contains "edd_" and not http.cookie contains "jetpack" and not http.cookie contains "yith_wcwl_session_" and not http.cookie contains "yith_wrvp_" and not http.cookie contains "wpsc_" and not http.cookie contains "ecwid" and not http.cookie contains "ec_" and not http.cookie contains "bookly" and not http.request.uri contains "ao_noptirocket" and not http.request.uri contains "jetpack=comms" and not http.request.uri contains "kinsta-monitor" and not http.request.uri contains "ao_speedup_cachebuster" and not http.request.uri contains "removed_item" and not http.request.uri contains "/my-account" and not http.request.uri contains "/wc-api" and not http.request.uri contains "/edd-api" and not http.request.uri contains "/wp-json" and not http.request.uri contains "/wp-admin" and not http.request.uri contains "/wp-login" and not http.request.uri.path contains ".xml" and not http.request.uri.path contains ".xsl" and not http.request.uri.path contains "robots.txt")
+    [id] => 23367db5d37747c2b580d16a7cab67df
+    [last_updated] => 2025-04-18T01:11:39.773856Z
+    [ref] => 23367db5d37747c2b580d16a7cab67df
+    [version] => 1
+)
+
+[2025-05-12 16:58:15] [cloudflare::update_cache_rule_if_diff] Cache rule is up to date.
+[2025-05-12 16:58:54] [cloudflare::update_cache_rule_if_diff] Start cache rule upgrade.
+[2025-05-12 16:58:54] [cloudflare::update_cache_rule_if_diff] Existing rule: Array
+(
+    [action] => set_cache_settings
+    [action_parameters] => Array
+        (
+            [browser_ttl] => Array
+                (
+                    [mode] => respect_origin
+                )
+
+            [cache] => 1
+        )
+
+    [description] => [DO NOT EDIT] WP Super Page Cache Plugin rules for https://squarecat.studio
+    [enabled] => 1
+    [expression] => (http.host wildcard "squarecat.studio*" and not http.cookie contains "comment_" and not http.cookie contains "woocommerce_" and not http.cookie contains "wordpress" and not http.cookie contains "xf_" and not http.cookie contains "edd_" and not http.cookie contains "jetpack" and not http.cookie contains "yith_wcwl_session_" and not http.cookie contains "yith_wrvp_" and not http.cookie contains "wpsc_" and not http.cookie contains "ecwid" and not http.cookie contains "ec_" and not http.cookie contains "bookly" and not http.request.uri contains "ao_noptirocket" and not http.request.uri contains "jetpack=comms" and not http.request.uri contains "kinsta-monitor" and not http.request.uri contains "ao_speedup_cachebuster" and not http.request.uri contains "removed_item" and not http.request.uri contains "/my-account" and not http.request.uri contains "/wc-api" and not http.request.uri contains "/edd-api" and not http.request.uri contains "/wp-json" and not http.request.uri contains "/wp-admin" and not http.request.uri contains "/wp-login" and not http.request.uri.path contains ".xml" and not http.request.uri.path contains ".xsl" and not http.request.uri.path contains "robots.txt")
+    [id] => 23367db5d37747c2b580d16a7cab67df
+    [last_updated] => 2025-04-18T01:11:39.773856Z
+    [ref] => 23367db5d37747c2b580d16a7cab67df
+    [version] => 1
+)
+
+[2025-05-12 16:58:54] [cloudflare::update_cache_rule_if_diff] Cache rule is up to date.

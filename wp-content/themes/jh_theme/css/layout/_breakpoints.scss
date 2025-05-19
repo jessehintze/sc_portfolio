@@ -1,0 +1,33 @@
+//must stay in px to work 1rem-10px doesn't convert with screen size
+$bp-xsmall: 481px;
+$bp-small: 769px;
+$bp-medium: 901px;
+$bp-large: 1025px;
+$bp-xlarge: 1201px;
+
+
+@mixin phone-only {
+    @media screen and (max-width: calc($bp-small - 1px)) { @content; }
+}
+@mixin phone-up {
+    @media screen and (min-width: $bp-small) { @content; }
+}
+@mixin tablet-portrait-up {
+    @media screen and (min-width: $bp-small) { @content; }
+}
+@mixin tablet-landscape-up {
+    @media screen and (min-width: $bp-medium) { @content; }
+}
+@mixin tablet-landscape-down {
+    @media screen and (max-width: calc($bp-large - 1px)) { @content; }
+}
+@mixin tablet-only {
+    @media screen and (min-width: $bp-small) and (max-width: calc($bp-large - 1px)){ @content; }
+}
+@mixin desktop-up {
+    @media screen and (min-width: $bp-large) { @content; }
+}
+@mixin big-desktop-up {
+    @media screen and (min-width: $bp-xlarge) { @content; }
+}
+

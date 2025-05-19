@@ -1,0 +1,371 @@
+[17-Apr-2025 01:14:24 UTC] PHP Warning:  require(/home/squahwev/public_html/wp-includes/rest-api/fields/class-wp-rest-meta-fields.php): Failed to open stream: No such file or directory in /home/squahwev/public_html/wp-settings.php on line 329
+[17-Apr-2025 01:14:24 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/squahwev/public_html/wp-includes/rest-api/fields/class-wp-rest-meta-fields.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/squahwev/public_html/wp-settings.php:329
+Stack trace:
+#0 /home/squahwev/public_html/wp-config.php(97): require_once()
+#1 /home/squahwev/public_html/wp-load.php(50): require_once('/home/squahwev/...')
+#2 /home/squahwev/public_html/wp-blog-header.php(13): require_once('/home/squahwev/...')
+#3 /home/squahwev/public_html/index.php(17): require('/home/squahwev/...')
+#4 {main}
+  thrown in /home/squahwev/public_html/wp-settings.php on line 329
+[17-Apr-2025 01:16:16 UTC] PHP Warning:  require(/home/squahwev/public_html/wp-includes/rest-api/fields/class-wp-rest-meta-fields.php): Failed to open stream: No such file or directory in /home/squahwev/public_html/wp-settings.php on line 329
+[17-Apr-2025 01:16:16 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/squahwev/public_html/wp-includes/rest-api/fields/class-wp-rest-meta-fields.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/squahwev/public_html/wp-settings.php:329
+Stack trace:
+#0 /home/squahwev/public_html/wp-config.php(97): require_once()
+#1 /home/squahwev/public_html/wp-load.php(50): require_once('/home/squahwev/...')
+#2 /home/squahwev/public_html/wp-blog-header.php(13): require_once('/home/squahwev/...')
+#3 /home/squahwev/public_html/index.php(17): require('/home/squahwev/...')
+#4 {main}
+  thrown in /home/squahwev/public_html/wp-settings.php on line 329
+[17-Apr-2025 01:17:50 UTC] PHP Warning:  require(/home/squahwev/public_html/wp-includes/rest-api/fields/class-wp-rest-meta-fields.php): Failed to open stream: No such file or directory in /home/squahwev/public_html/wp-settings.php on line 329
+[17-Apr-2025 01:17:50 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/squahwev/public_html/wp-includes/rest-api/fields/class-wp-rest-meta-fields.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/squahwev/public_html/wp-settings.php:329
+Stack trace:
+#0 /home/squahwev/public_html/wp-config.php(97): require_once()
+#1 /home/squahwev/public_html/wp-load.php(50): require_once('/home/squahwev/...')
+#2 /home/squahwev/public_html/wp-blog-header.php(13): require_once('/home/squahwev/...')
+#3 /home/squahwev/public_html/index.php(17): require('/home/squahwev/...')
+#4 {main}
+  thrown in /home/squahwev/public_html/wp-settings.php on line 329
+[17-Apr-2025 01:21:42 UTC] PHP Warning:  require(/home/squahwev/public_html/wp-includes/rest-api/fields/class-wp-rest-meta-fields.php): Failed to open stream: No such file or directory in /home/squahwev/public_html/wp-settings.php on line 329
+[17-Apr-2025 01:21:42 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/squahwev/public_html/wp-includes/rest-api/fields/class-wp-rest-meta-fields.php' (include_path='.:/opt/alt/php82/usr/share/pear:/opt/alt/php82/usr/share/php:/usr/share/pear:/usr/share/php') in /home/squahwev/public_html/wp-settings.php:329
+Stack trace:
+#0 /home/squahwev/public_html/wp-config.php(97): require_once()
+#1 /home/squahwev/public_html/wp-load.php(50): require_once('/home/squahwev/...')
+#2 /home/squahwev/public_html/wp-blog-header.php(13): require_once('/home/squahwev/...')
+#3 /home/squahwev/public_html/index.php(17): require('/home/squahwev/...')
+#4 {main}
+  thrown in /home/squahwev/public_html/wp-settings.php on line 329
+[17-Apr-2025 01:21:48 UTC] PHP Warning:  require(/home/squahwev/public_html/wp-includes/rest-api/fields/class-wp-rest-meta-fields.php): Failed to open stream: No such file or directory in /home/squahwev/public_html/wp-settings.php on line 329
+[17-Apr-2025 01:21:48 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/squahwev/public_html/wp-includes/rest-api/fields/class-wp-rest-meta-fields.php' (include_path='.:/opt/alt/php82/usr/share/pear:/opt/alt/php82/usr/share/php:/usr/share/pear:/usr/share/php') in /home/squahwev/public_html/wp-settings.php:329
+Stack trace:
+#0 /home/squahwev/public_html/wp-config.php(97): require_once()
+#1 /home/squahwev/public_html/wp-load.php(50): require_once('/home/squahwev/...')
+#2 /home/squahwev/public_html/wp-blog-header.php(13): require_once('/home/squahwev/...')
+#3 /home/squahwev/public_html/index.php(17): require('/home/squahwev/...')
+#4 {main}
+  thrown in /home/squahwev/public_html/wp-settings.php on line 329
+[17-Apr-2025 01:22:08 UTC] PHP Warning:  require(/home/squahwev/public_html/wp-includes/rest-api/fields/class-wp-rest-meta-fields.php): Failed to open stream: No such file or directory in /home/squahwev/public_html/wp-settings.php on line 329
+[17-Apr-2025 01:22:08 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/squahwev/public_html/wp-includes/rest-api/fields/class-wp-rest-meta-fields.php' (include_path='.:/opt/alt/php82/usr/share/pear:/opt/alt/php82/usr/share/php:/usr/share/pear:/usr/share/php') in /home/squahwev/public_html/wp-settings.php:329
+Stack trace:
+#0 /home/squahwev/public_html/wp-config.php(97): require_once()
+#1 /home/squahwev/public_html/wp-load.php(50): require_once('/home/squahwev/...')
+#2 /home/squahwev/public_html/wp-blog-header.php(13): require_once('/home/squahwev/...')
+#3 /home/squahwev/public_html/index.php(17): require('/home/squahwev/...')
+#4 {main}
+  thrown in /home/squahwev/public_html/wp-settings.php on line 329
+[17-Apr-2025 01:22:12 UTC] PHP Warning:  require(/home/squahwev/public_html/wp-includes/rest-api/fields/class-wp-rest-meta-fields.php): Failed to open stream: No such file or directory in /home/squahwev/public_html/wp-settings.php on line 329
+[17-Apr-2025 01:22:12 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/squahwev/public_html/wp-includes/rest-api/fields/class-wp-rest-meta-fields.php' (include_path='.:/opt/alt/php82/usr/share/pear:/opt/alt/php82/usr/share/php:/usr/share/pear:/usr/share/php') in /home/squahwev/public_html/wp-settings.php:329
+Stack trace:
+#0 /home/squahwev/public_html/wp-config.php(97): require_once()
+#1 /home/squahwev/public_html/wp-load.php(50): require_once('/home/squahwev/...')
+#2 /home/squahwev/public_html/wp-blog-header.php(13): require_once('/home/squahwev/...')
+#3 /home/squahwev/public_html/index.php(17): require('/home/squahwev/...')
+#4 {main}
+  thrown in /home/squahwev/public_html/wp-settings.php on line 329
+[17-Apr-2025 01:27:07 UTC] PHP Warning:  require(/home/squahwev/public_html/wp-includes/rest-api/fields/class-wp-rest-meta-fields.php): Failed to open stream: No such file or directory in /home/squahwev/public_html/wp-settings.php on line 329
+[17-Apr-2025 01:27:07 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/squahwev/public_html/wp-includes/rest-api/fields/class-wp-rest-meta-fields.php' (include_path='.:/opt/alt/php82/usr/share/pear:/opt/alt/php82/usr/share/php:/usr/share/pear:/usr/share/php') in /home/squahwev/public_html/wp-settings.php:329
+Stack trace:
+#0 /home/squahwev/public_html/wp-config.php(97): require_once()
+#1 /home/squahwev/public_html/wp-load.php(50): require_once('/home/squahwev/...')
+#2 /home/squahwev/public_html/wp-blog-header.php(13): require_once('/home/squahwev/...')
+#3 /home/squahwev/public_html/index.php(17): require('/home/squahwev/...')
+#4 {main}
+  thrown in /home/squahwev/public_html/wp-settings.php on line 329
+[17-Apr-2025 01:44:11 UTC] PHP Warning:  require(/home/squahwev/public_html/wp-includes/rest-api/fields/class-wp-rest-meta-fields.php): Failed to open stream: No such file or directory in /home/squahwev/public_html/wp-settings.php on line 329
+[17-Apr-2025 01:44:11 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/squahwev/public_html/wp-includes/rest-api/fields/class-wp-rest-meta-fields.php' (include_path='.:/opt/alt/php82/usr/share/pear:/opt/alt/php82/usr/share/php:/usr/share/pear:/usr/share/php') in /home/squahwev/public_html/wp-settings.php:329
+Stack trace:
+#0 /home/squahwev/public_html/wp-config.php(97): require_once()
+#1 /home/squahwev/public_html/wp-load.php(50): require_once('/home/squahwev/...')
+#2 /home/squahwev/public_html/wp-blog-header.php(13): require_once('/home/squahwev/...')
+#3 /home/squahwev/public_html/index.php(17): require('/home/squahwev/...')
+#4 {main}
+  thrown in /home/squahwev/public_html/wp-settings.php on line 329
+[17-Apr-2025 02:13:18 UTC] PHP Warning:  require(/home/squahwev/public_html/wp-includes/rest-api/fields/class-wp-rest-meta-fields.php): Failed to open stream: No such file or directory in /home/squahwev/public_html/wp-settings.php on line 329
+[17-Apr-2025 02:13:18 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/squahwev/public_html/wp-includes/rest-api/fields/class-wp-rest-meta-fields.php' (include_path='.:/opt/alt/php82/usr/share/pear:/opt/alt/php82/usr/share/php:/usr/share/pear:/usr/share/php') in /home/squahwev/public_html/wp-settings.php:329
+Stack trace:
+#0 /home/squahwev/public_html/wp-config.php(97): require_once()
+#1 /home/squahwev/public_html/wp-load.php(50): require_once('/home/squahwev/...')
+#2 /home/squahwev/public_html/wp-blog-header.php(13): require_once('/home/squahwev/...')
+#3 /home/squahwev/public_html/index.php(17): require('/home/squahwev/...')
+#4 {main}
+  thrown in /home/squahwev/public_html/wp-settings.php on line 329
+[17-Apr-2025 02:59:29 UTC] PHP Warning:  require(/home/squahwev/public_html/wp-includes/rest-api/fields/class-wp-rest-meta-fields.php): Failed to open stream: No such file or directory in /home/squahwev/public_html/wp-settings.php on line 329
+[17-Apr-2025 02:59:29 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/squahwev/public_html/wp-includes/rest-api/fields/class-wp-rest-meta-fields.php' (include_path='.:/opt/alt/php82/usr/share/pear:/opt/alt/php82/usr/share/php:/usr/share/pear:/usr/share/php') in /home/squahwev/public_html/wp-settings.php:329
+Stack trace:
+#0 /home/squahwev/public_html/wp-config.php(97): require_once()
+#1 /home/squahwev/public_html/wp-load.php(50): require_once('/home/squahwev/...')
+#2 /home/squahwev/public_html/wp-blog-header.php(13): require_once('/home/squahwev/...')
+#3 /home/squahwev/public_html/index.php(17): require('/home/squahwev/...')
+#4 {main}
+  thrown in /home/squahwev/public_html/wp-settings.php on line 329
+[17-Apr-2025 03:31:41 UTC] PHP Warning:  require(/home/squahwev/public_html/wp-includes/rest-api/fields/class-wp-rest-meta-fields.php): Failed to open stream: No such file or directory in /home/squahwev/public_html/wp-settings.php on line 329
+[17-Apr-2025 03:31:41 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/squahwev/public_html/wp-includes/rest-api/fields/class-wp-rest-meta-fields.php' (include_path='.:/opt/alt/php82/usr/share/pear:/opt/alt/php82/usr/share/php:/usr/share/pear:/usr/share/php') in /home/squahwev/public_html/wp-settings.php:329
+Stack trace:
+#0 /home/squahwev/public_html/wp-config.php(97): require_once()
+#1 /home/squahwev/public_html/wp-load.php(50): require_once('/home/squahwev/...')
+#2 /home/squahwev/public_html/wp-blog-header.php(13): require_once('/home/squahwev/...')
+#3 /home/squahwev/public_html/index.php(17): require('/home/squahwev/...')
+#4 {main}
+  thrown in /home/squahwev/public_html/wp-settings.php on line 329
+[17-Apr-2025 03:31:43 UTC] PHP Warning:  require(/home/squahwev/public_html/wp-includes/rest-api/fields/class-wp-rest-meta-fields.php): Failed to open stream: No such file or directory in /home/squahwev/public_html/wp-settings.php on line 329
+[17-Apr-2025 03:31:43 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/squahwev/public_html/wp-includes/rest-api/fields/class-wp-rest-meta-fields.php' (include_path='.:/opt/alt/php82/usr/share/pear:/opt/alt/php82/usr/share/php:/usr/share/pear:/usr/share/php') in /home/squahwev/public_html/wp-settings.php:329
+Stack trace:
+#0 /home/squahwev/public_html/wp-config.php(97): require_once()
+#1 /home/squahwev/public_html/wp-load.php(50): require_once('/home/squahwev/...')
+#2 /home/squahwev/public_html/wp-blog-header.php(13): require_once('/home/squahwev/...')
+#3 /home/squahwev/public_html/index.php(17): require('/home/squahwev/...')
+#4 {main}
+  thrown in /home/squahwev/public_html/wp-settings.php on line 329
+[17-Apr-2025 04:31:39 UTC] PHP Warning:  require(/home/squahwev/public_html/wp-includes/rest-api/fields/class-wp-rest-meta-fields.php): Failed to open stream: No such file or directory in /home/squahwev/public_html/wp-settings.php on line 329
+[17-Apr-2025 04:31:39 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/squahwev/public_html/wp-includes/rest-api/fields/class-wp-rest-meta-fields.php' (include_path='.:/opt/alt/php82/usr/share/pear:/opt/alt/php82/usr/share/php:/usr/share/pear:/usr/share/php') in /home/squahwev/public_html/wp-settings.php:329
+Stack trace:
+#0 /home/squahwev/public_html/wp-config.php(97): require_once()
+#1 /home/squahwev/public_html/wp-load.php(50): require_once('/home/squahwev/...')
+#2 /home/squahwev/public_html/wp-blog-header.php(13): require_once('/home/squahwev/...')
+#3 /home/squahwev/public_html/index.php(17): require('/home/squahwev/...')
+#4 {main}
+  thrown in /home/squahwev/public_html/wp-settings.php on line 329
+[17-Apr-2025 04:52:05 UTC] PHP Warning:  require(/home/squahwev/public_html/wp-includes/rest-api/fields/class-wp-rest-meta-fields.php): Failed to open stream: No such file or directory in /home/squahwev/public_html/wp-settings.php on line 329
+[17-Apr-2025 04:52:05 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/squahwev/public_html/wp-includes/rest-api/fields/class-wp-rest-meta-fields.php' (include_path='.:/opt/alt/php82/usr/share/pear:/opt/alt/php82/usr/share/php:/usr/share/pear:/usr/share/php') in /home/squahwev/public_html/wp-settings.php:329
+Stack trace:
+#0 /home/squahwev/public_html/wp-config.php(97): require_once()
+#1 /home/squahwev/public_html/wp-load.php(50): require_once('/home/squahwev/...')
+#2 /home/squahwev/public_html/wp-blog-header.php(13): require_once('/home/squahwev/...')
+#3 /home/squahwev/public_html/index.php(17): require('/home/squahwev/...')
+#4 {main}
+  thrown in /home/squahwev/public_html/wp-settings.php on line 329
+[17-Apr-2025 05:02:06 UTC] PHP Warning:  require(/home/squahwev/public_html/wp-includes/rest-api/fields/class-wp-rest-meta-fields.php): Failed to open stream: No such file or directory in /home/squahwev/public_html/wp-settings.php on line 329
+[17-Apr-2025 05:02:06 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/squahwev/public_html/wp-includes/rest-api/fields/class-wp-rest-meta-fields.php' (include_path='.:/opt/alt/php82/usr/share/pear:/opt/alt/php82/usr/share/php:/usr/share/pear:/usr/share/php') in /home/squahwev/public_html/wp-settings.php:329
+Stack trace:
+#0 /home/squahwev/public_html/wp-config.php(97): require_once()
+#1 /home/squahwev/public_html/wp-load.php(50): require_once('/home/squahwev/...')
+#2 /home/squahwev/public_html/wp-blog-header.php(13): require_once('/home/squahwev/...')
+#3 /home/squahwev/public_html/index.php(17): require('/home/squahwev/...')
+#4 {main}
+  thrown in /home/squahwev/public_html/wp-settings.php on line 329
+[17-Apr-2025 06:33:51 UTC] PHP Warning:  require(/home/squahwev/public_html/wp-includes/rest-api/fields/class-wp-rest-meta-fields.php): Failed to open stream: No such file or directory in /home/squahwev/public_html/wp-settings.php on line 329
+[17-Apr-2025 06:33:51 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/squahwev/public_html/wp-includes/rest-api/fields/class-wp-rest-meta-fields.php' (include_path='.:/opt/alt/php82/usr/share/pear:/opt/alt/php82/usr/share/php:/usr/share/pear:/usr/share/php') in /home/squahwev/public_html/wp-settings.php:329
+Stack trace:
+#0 /home/squahwev/public_html/wp-config.php(97): require_once()
+#1 /home/squahwev/public_html/wp-load.php(50): require_once('/home/squahwev/...')
+#2 /home/squahwev/public_html/wp-blog-header.php(13): require_once('/home/squahwev/...')
+#3 /home/squahwev/public_html/index.php(17): require('/home/squahwev/...')
+#4 {main}
+  thrown in /home/squahwev/public_html/wp-settings.php on line 329
+[17-Apr-2025 06:33:57 UTC] PHP Warning:  require(/home/squahwev/public_html/wp-includes/rest-api/fields/class-wp-rest-meta-fields.php): Failed to open stream: No such file or directory in /home/squahwev/public_html/wp-settings.php on line 329
+[17-Apr-2025 06:33:57 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/squahwev/public_html/wp-includes/rest-api/fields/class-wp-rest-meta-fields.php' (include_path='.:/opt/alt/php82/usr/share/pear:/opt/alt/php82/usr/share/php:/usr/share/pear:/usr/share/php') in /home/squahwev/public_html/wp-settings.php:329
+Stack trace:
+#0 /home/squahwev/public_html/wp-config.php(97): require_once()
+#1 /home/squahwev/public_html/wp-load.php(50): require_once('/home/squahwev/...')
+#2 /home/squahwev/public_html/wp-blog-header.php(13): require_once('/home/squahwev/...')
+#3 /home/squahwev/public_html/index.php(17): require('/home/squahwev/...')
+#4 {main}
+  thrown in /home/squahwev/public_html/wp-settings.php on line 329
+[17-Apr-2025 06:34:01 UTC] PHP Warning:  require(/home/squahwev/public_html/wp-includes/rest-api/fields/class-wp-rest-meta-fields.php): Failed to open stream: No such file or directory in /home/squahwev/public_html/wp-settings.php on line 329
+[17-Apr-2025 06:34:01 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/squahwev/public_html/wp-includes/rest-api/fields/class-wp-rest-meta-fields.php' (include_path='.:/opt/alt/php82/usr/share/pear:/opt/alt/php82/usr/share/php:/usr/share/pear:/usr/share/php') in /home/squahwev/public_html/wp-settings.php:329
+Stack trace:
+#0 /home/squahwev/public_html/wp-config.php(97): require_once()
+#1 /home/squahwev/public_html/wp-load.php(50): require_once('/home/squahwev/...')
+#2 /home/squahwev/public_html/wp-blog-header.php(13): require_once('/home/squahwev/...')
+#3 /home/squahwev/public_html/index.php(17): require('/home/squahwev/...')
+#4 {main}
+  thrown in /home/squahwev/public_html/wp-settings.php on line 329
+[17-Apr-2025 06:46:38 UTC] PHP Warning:  require(/home/squahwev/public_html/wp-includes/rest-api/fields/class-wp-rest-meta-fields.php): Failed to open stream: No such file or directory in /home/squahwev/public_html/wp-settings.php on line 329
+[17-Apr-2025 06:46:38 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/squahwev/public_html/wp-includes/rest-api/fields/class-wp-rest-meta-fields.php' (include_path='.:/opt/alt/php82/usr/share/pear:/opt/alt/php82/usr/share/php:/usr/share/pear:/usr/share/php') in /home/squahwev/public_html/wp-settings.php:329
+Stack trace:
+#0 /home/squahwev/public_html/wp-config.php(97): require_once()
+#1 /home/squahwev/public_html/wp-load.php(50): require_once('/home/squahwev/...')
+#2 /home/squahwev/public_html/wp-blog-header.php(13): require_once('/home/squahwev/...')
+#3 /home/squahwev/public_html/index.php(17): require('/home/squahwev/...')
+#4 {main}
+  thrown in /home/squahwev/public_html/wp-settings.php on line 329
+[17-Apr-2025 07:20:42 UTC] PHP Warning:  require(/home/squahwev/public_html/wp-includes/rest-api/fields/class-wp-rest-meta-fields.php): Failed to open stream: No such file or directory in /home/squahwev/public_html/wp-settings.php on line 329
+[17-Apr-2025 07:20:42 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/squahwev/public_html/wp-includes/rest-api/fields/class-wp-rest-meta-fields.php' (include_path='.:/opt/alt/php82/usr/share/pear:/opt/alt/php82/usr/share/php:/usr/share/pear:/usr/share/php') in /home/squahwev/public_html/wp-settings.php:329
+Stack trace:
+#0 /home/squahwev/public_html/wp-config.php(97): require_once()
+#1 /home/squahwev/public_html/wp-load.php(50): require_once('/home/squahwev/...')
+#2 /home/squahwev/public_html/wp-blog-header.php(13): require_once('/home/squahwev/...')
+#3 /home/squahwev/public_html/index.php(17): require('/home/squahwev/...')
+#4 {main}
+  thrown in /home/squahwev/public_html/wp-settings.php on line 329
+[17-Apr-2025 08:00:32 UTC] PHP Warning:  require(/home/squahwev/public_html/wp-includes/rest-api/fields/class-wp-rest-meta-fields.php): Failed to open stream: No such file or directory in /home/squahwev/public_html/wp-settings.php on line 329
+[17-Apr-2025 08:00:32 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/squahwev/public_html/wp-includes/rest-api/fields/class-wp-rest-meta-fields.php' (include_path='.:/opt/alt/php82/usr/share/pear:/opt/alt/php82/usr/share/php:/usr/share/pear:/usr/share/php') in /home/squahwev/public_html/wp-settings.php:329
+Stack trace:
+#0 /home/squahwev/public_html/wp-config.php(97): require_once()
+#1 /home/squahwev/public_html/wp-load.php(50): require_once('/home/squahwev/...')
+#2 /home/squahwev/public_html/wp-blog-header.php(13): require_once('/home/squahwev/...')
+#3 /home/squahwev/public_html/index.php(17): require('/home/squahwev/...')
+#4 {main}
+  thrown in /home/squahwev/public_html/wp-settings.php on line 329
+[17-Apr-2025 08:00:39 UTC] PHP Warning:  require(/home/squahwev/public_html/wp-includes/rest-api/fields/class-wp-rest-meta-fields.php): Failed to open stream: No such file or directory in /home/squahwev/public_html/wp-settings.php on line 329
+[17-Apr-2025 08:00:39 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/squahwev/public_html/wp-includes/rest-api/fields/class-wp-rest-meta-fields.php' (include_path='.:/opt/alt/php82/usr/share/pear:/opt/alt/php82/usr/share/php:/usr/share/pear:/usr/share/php') in /home/squahwev/public_html/wp-settings.php:329
+Stack trace:
+#0 /home/squahwev/public_html/wp-config.php(97): require_once()
+#1 /home/squahwev/public_html/wp-load.php(50): require_once('/home/squahwev/...')
+#2 /home/squahwev/public_html/wp-blog-header.php(13): require_once('/home/squahwev/...')
+#3 /home/squahwev/public_html/index.php(17): require('/home/squahwev/...')
+#4 {main}
+  thrown in /home/squahwev/public_html/wp-settings.php on line 329
+[17-Apr-2025 08:00:45 UTC] PHP Warning:  require(/home/squahwev/public_html/wp-includes/rest-api/fields/class-wp-rest-meta-fields.php): Failed to open stream: No such file or directory in /home/squahwev/public_html/wp-settings.php on line 329
+[17-Apr-2025 08:00:45 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/squahwev/public_html/wp-includes/rest-api/fields/class-wp-rest-meta-fields.php' (include_path='.:/opt/alt/php82/usr/share/pear:/opt/alt/php82/usr/share/php:/usr/share/pear:/usr/share/php') in /home/squahwev/public_html/wp-settings.php:329
+Stack trace:
+#0 /home/squahwev/public_html/wp-config.php(97): require_once()
+#1 /home/squahwev/public_html/wp-load.php(50): require_once('/home/squahwev/...')
+#2 /home/squahwev/public_html/wp-blog-header.php(13): require_once('/home/squahwev/...')
+#3 /home/squahwev/public_html/index.php(17): require('/home/squahwev/...')
+#4 {main}
+  thrown in /home/squahwev/public_html/wp-settings.php on line 329
+[17-Apr-2025 08:00:48 UTC] PHP Warning:  require(/home/squahwev/public_html/wp-includes/rest-api/fields/class-wp-rest-meta-fields.php): Failed to open stream: No such file or directory in /home/squahwev/public_html/wp-settings.php on line 329
+[17-Apr-2025 08:00:48 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/squahwev/public_html/wp-includes/rest-api/fields/class-wp-rest-meta-fields.php' (include_path='.:/opt/alt/php82/usr/share/pear:/opt/alt/php82/usr/share/php:/usr/share/pear:/usr/share/php') in /home/squahwev/public_html/wp-settings.php:329
+Stack trace:
+#0 /home/squahwev/public_html/wp-config.php(97): require_once()
+#1 /home/squahwev/public_html/wp-load.php(50): require_once('/home/squahwev/...')
+#2 /home/squahwev/public_html/wp-blog-header.php(13): require_once('/home/squahwev/...')
+#3 /home/squahwev/public_html/index.php(17): require('/home/squahwev/...')
+#4 {main}
+  thrown in /home/squahwev/public_html/wp-settings.php on line 329
+[17-Apr-2025 08:00:52 UTC] PHP Warning:  require(/home/squahwev/public_html/wp-includes/rest-api/fields/class-wp-rest-meta-fields.php): Failed to open stream: No such file or directory in /home/squahwev/public_html/wp-settings.php on line 329
+[17-Apr-2025 08:00:52 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/squahwev/public_html/wp-includes/rest-api/fields/class-wp-rest-meta-fields.php' (include_path='.:/opt/alt/php82/usr/share/pear:/opt/alt/php82/usr/share/php:/usr/share/pear:/usr/share/php') in /home/squahwev/public_html/wp-settings.php:329
+Stack trace:
+#0 /home/squahwev/public_html/wp-config.php(97): require_once()
+#1 /home/squahwev/public_html/wp-load.php(50): require_once('/home/squahwev/...')
+#2 /home/squahwev/public_html/wp-blog-header.php(13): require_once('/home/squahwev/...')
+#3 /home/squahwev/public_html/index.php(17): require('/home/squahwev/...')
+#4 {main}
+  thrown in /home/squahwev/public_html/wp-settings.php on line 329
+[17-Apr-2025 08:00:57 UTC] PHP Warning:  require(/home/squahwev/public_html/wp-includes/rest-api/fields/class-wp-rest-meta-fields.php): Failed to open stream: No such file or directory in /home/squahwev/public_html/wp-settings.php on line 329
+[17-Apr-2025 08:00:57 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/squahwev/public_html/wp-includes/rest-api/fields/class-wp-rest-meta-fields.php' (include_path='.:/opt/alt/php82/usr/share/pear:/opt/alt/php82/usr/share/php:/usr/share/pear:/usr/share/php') in /home/squahwev/public_html/wp-settings.php:329
+Stack trace:
+#0 /home/squahwev/public_html/wp-config.php(97): require_once()
+#1 /home/squahwev/public_html/wp-load.php(50): require_once('/home/squahwev/...')
+#2 /home/squahwev/public_html/wp-blog-header.php(13): require_once('/home/squahwev/...')
+#3 /home/squahwev/public_html/index.php(17): require('/home/squahwev/...')
+#4 {main}
+  thrown in /home/squahwev/public_html/wp-settings.php on line 329
+[17-Apr-2025 08:01:02 UTC] PHP Warning:  require(/home/squahwev/public_html/wp-includes/rest-api/fields/class-wp-rest-meta-fields.php): Failed to open stream: No such file or directory in /home/squahwev/public_html/wp-settings.php on line 329
+[17-Apr-2025 08:01:02 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/squahwev/public_html/wp-includes/rest-api/fields/class-wp-rest-meta-fields.php' (include_path='.:/opt/alt/php82/usr/share/pear:/opt/alt/php82/usr/share/php:/usr/share/pear:/usr/share/php') in /home/squahwev/public_html/wp-settings.php:329
+Stack trace:
+#0 /home/squahwev/public_html/wp-config.php(97): require_once()
+#1 /home/squahwev/public_html/wp-load.php(50): require_once('/home/squahwev/...')
+#2 /home/squahwev/public_html/wp-blog-header.php(13): require_once('/home/squahwev/...')
+#3 /home/squahwev/public_html/index.php(17): require('/home/squahwev/...')
+#4 {main}
+  thrown in /home/squahwev/public_html/wp-settings.php on line 329
+[17-Apr-2025 08:01:02 UTC] PHP Warning:  require(/home/squahwev/public_html/wp-includes/rest-api/fields/class-wp-rest-meta-fields.php): Failed to open stream: No such file or directory in /home/squahwev/public_html/wp-settings.php on line 329
+[17-Apr-2025 08:01:02 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/squahwev/public_html/wp-includes/rest-api/fields/class-wp-rest-meta-fields.php' (include_path='.:/opt/alt/php82/usr/share/pear:/opt/alt/php82/usr/share/php:/usr/share/pear:/usr/share/php') in /home/squahwev/public_html/wp-settings.php:329
+Stack trace:
+#0 /home/squahwev/public_html/wp-config.php(97): require_once()
+#1 /home/squahwev/public_html/wp-load.php(50): require_once('/home/squahwev/...')
+#2 /home/squahwev/public_html/wp-blog-header.php(13): require_once('/home/squahwev/...')
+#3 /home/squahwev/public_html/index.php(17): require('/home/squahwev/...')
+#4 {main}
+  thrown in /home/squahwev/public_html/wp-settings.php on line 329
+[17-Apr-2025 08:01:08 UTC] PHP Warning:  require(/home/squahwev/public_html/wp-includes/rest-api/fields/class-wp-rest-meta-fields.php): Failed to open stream: No such file or directory in /home/squahwev/public_html/wp-settings.php on line 329
+[17-Apr-2025 08:01:08 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/squahwev/public_html/wp-includes/rest-api/fields/class-wp-rest-meta-fields.php' (include_path='.:/opt/alt/php82/usr/share/pear:/opt/alt/php82/usr/share/php:/usr/share/pear:/usr/share/php') in /home/squahwev/public_html/wp-settings.php:329
+Stack trace:
+#0 /home/squahwev/public_html/wp-config.php(97): require_once()
+#1 /home/squahwev/public_html/wp-load.php(50): require_once('/home/squahwev/...')
+#2 /home/squahwev/public_html/wp-blog-header.php(13): require_once('/home/squahwev/...')
+#3 /home/squahwev/public_html/index.php(17): require('/home/squahwev/...')
+#4 {main}
+  thrown in /home/squahwev/public_html/wp-settings.php on line 329
+[17-Apr-2025 08:01:13 UTC] PHP Warning:  require(/home/squahwev/public_html/wp-includes/rest-api/fields/class-wp-rest-meta-fields.php): Failed to open stream: No such file or directory in /home/squahwev/public_html/wp-settings.php on line 329
+[17-Apr-2025 08:01:13 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/squahwev/public_html/wp-includes/rest-api/fields/class-wp-rest-meta-fields.php' (include_path='.:/opt/alt/php82/usr/share/pear:/opt/alt/php82/usr/share/php:/usr/share/pear:/usr/share/php') in /home/squahwev/public_html/wp-settings.php:329
+Stack trace:
+#0 /home/squahwev/public_html/wp-config.php(97): require_once()
+#1 /home/squahwev/public_html/wp-load.php(50): require_once('/home/squahwev/...')
+#2 /home/squahwev/public_html/wp-blog-header.php(13): require_once('/home/squahwev/...')
+#3 /home/squahwev/public_html/index.php(17): require('/home/squahwev/...')
+#4 {main}
+  thrown in /home/squahwev/public_html/wp-settings.php on line 329
+[17-Apr-2025 09:47:25 UTC] PHP Warning:  require(/home/squahwev/public_html/wp-includes/rest-api/fields/class-wp-rest-meta-fields.php): Failed to open stream: No such file or directory in /home/squahwev/public_html/wp-settings.php on line 329
+[17-Apr-2025 09:47:25 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/squahwev/public_html/wp-includes/rest-api/fields/class-wp-rest-meta-fields.php' (include_path='.:/opt/alt/php82/usr/share/pear:/opt/alt/php82/usr/share/php:/usr/share/pear:/usr/share/php') in /home/squahwev/public_html/wp-settings.php:329
+Stack trace:
+#0 /home/squahwev/public_html/wp-config.php(97): require_once()
+#1 /home/squahwev/public_html/wp-load.php(50): require_once('/home/squahwev/...')
+#2 /home/squahwev/public_html/wp-blog-header.php(13): require_once('/home/squahwev/...')
+#3 /home/squahwev/public_html/index.php(17): require('/home/squahwev/...')
+#4 {main}
+  thrown in /home/squahwev/public_html/wp-settings.php on line 329
+[17-Apr-2025 10:14:23 UTC] PHP Warning:  require(/home/squahwev/public_html/wp-includes/rest-api/fields/class-wp-rest-meta-fields.php): Failed to open stream: No such file or directory in /home/squahwev/public_html/wp-settings.php on line 329
+[17-Apr-2025 10:14:23 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/squahwev/public_html/wp-includes/rest-api/fields/class-wp-rest-meta-fields.php' (include_path='.:/opt/alt/php82/usr/share/pear:/opt/alt/php82/usr/share/php:/usr/share/pear:/usr/share/php') in /home/squahwev/public_html/wp-settings.php:329
+Stack trace:
+#0 /home/squahwev/public_html/wp-config.php(97): require_once()
+#1 /home/squahwev/public_html/wp-load.php(50): require_once('/home/squahwev/...')
+#2 /home/squahwev/public_html/wp-blog-header.php(13): require_once('/home/squahwev/...')
+#3 /home/squahwev/public_html/index.php(17): require('/home/squahwev/...')
+#4 {main}
+  thrown in /home/squahwev/public_html/wp-settings.php on line 329
+[17-Apr-2025 10:45:22 UTC] PHP Warning:  require(/home/squahwev/public_html/wp-includes/rest-api/fields/class-wp-rest-meta-fields.php): Failed to open stream: No such file or directory in /home/squahwev/public_html/wp-settings.php on line 329
+[17-Apr-2025 10:45:22 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/squahwev/public_html/wp-includes/rest-api/fields/class-wp-rest-meta-fields.php' (include_path='.:/opt/alt/php82/usr/share/pear:/opt/alt/php82/usr/share/php:/usr/share/pear:/usr/share/php') in /home/squahwev/public_html/wp-settings.php:329
+Stack trace:
+#0 /home/squahwev/public_html/wp-config.php(97): require_once()
+#1 /home/squahwev/public_html/wp-load.php(50): require_once('/home/squahwev/...')
+#2 /home/squahwev/public_html/wp-blog-header.php(13): require_once('/home/squahwev/...')
+#3 /home/squahwev/public_html/index.php(17): require('/home/squahwev/...')
+#4 {main}
+  thrown in /home/squahwev/public_html/wp-settings.php on line 329
+[17-Apr-2025 10:52:56 UTC] PHP Warning:  require(/home/squahwev/public_html/wp-includes/rest-api/fields/class-wp-rest-meta-fields.php): Failed to open stream: No such file or directory in /home/squahwev/public_html/wp-settings.php on line 329
+[17-Apr-2025 10:52:56 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/squahwev/public_html/wp-includes/rest-api/fields/class-wp-rest-meta-fields.php' (include_path='.:/opt/alt/php82/usr/share/pear:/opt/alt/php82/usr/share/php:/usr/share/pear:/usr/share/php') in /home/squahwev/public_html/wp-settings.php:329
+Stack trace:
+#0 /home/squahwev/public_html/wp-config.php(97): require_once()
+#1 /home/squahwev/public_html/wp-load.php(50): require_once('/home/squahwev/...')
+#2 /home/squahwev/public_html/wp-blog-header.php(13): require_once('/home/squahwev/...')
+#3 /home/squahwev/public_html/index.php(17): require('/home/squahwev/...')
+#4 {main}
+  thrown in /home/squahwev/public_html/wp-settings.php on line 329
+[17-Apr-2025 11:15:36 UTC] PHP Warning:  require(/home/squahwev/public_html/wp-includes/rest-api/fields/class-wp-rest-meta-fields.php): Failed to open stream: No such file or directory in /home/squahwev/public_html/wp-settings.php on line 329
+[17-Apr-2025 11:15:36 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/squahwev/public_html/wp-includes/rest-api/fields/class-wp-rest-meta-fields.php' (include_path='.:/opt/alt/php82/usr/share/pear:/opt/alt/php82/usr/share/php:/usr/share/pear:/usr/share/php') in /home/squahwev/public_html/wp-settings.php:329
+Stack trace:
+#0 /home/squahwev/public_html/wp-config.php(97): require_once()
+#1 /home/squahwev/public_html/wp-load.php(50): require_once('/home/squahwev/...')
+#2 /home/squahwev/public_html/wp-blog-header.php(13): require_once('/home/squahwev/...')
+#3 /home/squahwev/public_html/index.php(17): require('/home/squahwev/...')
+#4 {main}
+  thrown in /home/squahwev/public_html/wp-settings.php on line 329
+[17-Apr-2025 11:22:05 UTC] PHP Warning:  require(/home/squahwev/public_html/wp-includes/rest-api/fields/class-wp-rest-meta-fields.php): Failed to open stream: No such file or directory in /home/squahwev/public_html/wp-settings.php on line 329
+[17-Apr-2025 11:22:05 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/squahwev/public_html/wp-includes/rest-api/fields/class-wp-rest-meta-fields.php' (include_path='.:/opt/alt/php82/usr/share/pear:/opt/alt/php82/usr/share/php:/usr/share/pear:/usr/share/php') in /home/squahwev/public_html/wp-settings.php:329
+Stack trace:
+#0 /home/squahwev/public_html/wp-config.php(97): require_once()
+#1 /home/squahwev/public_html/wp-load.php(50): require_once('/home/squahwev/...')
+#2 /home/squahwev/public_html/wp-blog-header.php(13): require_once('/home/squahwev/...')
+#3 /home/squahwev/public_html/index.php(17): require('/home/squahwev/...')
+#4 {main}
+  thrown in /home/squahwev/public_html/wp-settings.php on line 329
+[17-Apr-2025 11:22:52 UTC] PHP Warning:  require(/home/squahwev/public_html/wp-includes/rest-api/fields/class-wp-rest-meta-fields.php): Failed to open stream: No such file or directory in /home/squahwev/public_html/wp-settings.php on line 329
+[17-Apr-2025 11:22:52 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/squahwev/public_html/wp-includes/rest-api/fields/class-wp-rest-meta-fields.php' (include_path='.:/opt/alt/php82/usr/share/pear:/opt/alt/php82/usr/share/php:/usr/share/pear:/usr/share/php') in /home/squahwev/public_html/wp-settings.php:329
+Stack trace:
+#0 /home/squahwev/public_html/wp-config.php(97): require_once()
+#1 /home/squahwev/public_html/wp-load.php(50): require_once('/home/squahwev/...')
+#2 /home/squahwev/public_html/wp-blog-header.php(13): require_once('/home/squahwev/...')
+#3 /home/squahwev/public_html/sapp-wp-signon.php(40): require('/home/squahwev/...')
+#4 {main}
+  thrown in /home/squahwev/public_html/wp-settings.php on line 329
+[17-Apr-2025 11:23:10 UTC] PHP Warning:  require(/home/squahwev/public_html/wp-includes/rest-api/fields/class-wp-rest-meta-fields.php): Failed to open stream: No such file or directory in /home/squahwev/public_html/wp-settings.php on line 329
+[17-Apr-2025 11:23:10 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/squahwev/public_html/wp-includes/rest-api/fields/class-wp-rest-meta-fields.php' (include_path='.:/opt/alt/php82/usr/share/pear:/opt/alt/php82/usr/share/php:/usr/share/pear:/usr/share/php') in /home/squahwev/public_html/wp-settings.php:329
+Stack trace:
+#0 /home/squahwev/public_html/wp-config.php(97): require_once()
+#1 /home/squahwev/public_html/wp-load.php(50): require_once('/home/squahwev/...')
+#2 /home/squahwev/public_html/wp-blog-header.php(13): require_once('/home/squahwev/...')
+#3 /home/squahwev/public_html/index.php(17): require('/home/squahwev/...')
+#4 {main}
+  thrown in /home/squahwev/public_html/wp-settings.php on line 329
+[17-Apr-2025 11:23:43 UTC] PHP Warning:  require(/home/squahwev/public_html/wp-includes/rest-api/fields/class-wp-rest-meta-fields.php): Failed to open stream: No such file or directory in /home/squahwev/public_html/wp-settings.php on line 329
+[17-Apr-2025 11:23:43 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/squahwev/public_html/wp-includes/rest-api/fields/class-wp-rest-meta-fields.php' (include_path='.:/opt/alt/php82/usr/share/pear:/opt/alt/php82/usr/share/php:/usr/share/pear:/usr/share/php') in /home/squahwev/public_html/wp-settings.php:329
+Stack trace:
+#0 /home/squahwev/public_html/wp-config.php(97): require_once()
+#1 /home/squahwev/public_html/wp-load.php(50): require_once('/home/squahwev/...')
+#2 /home/squahwev/public_html/wp-blog-header.php(13): require_once('/home/squahwev/...')
+#3 /home/squahwev/public_html/sapp-plugin-deactivate.php(10): require_once('/home/squahwev/...')
+#4 {main}
+  thrown in /home/squahwev/public_html/wp-settings.php on line 329
+[17-Apr-2025 11:26:28 UTC] PHP Warning:  require(/home/squahwev/public_html/wp-includes/rest-api/fields/class-wp-rest-meta-fields.php): Failed to open stream: No such file or directory in /home/squahwev/public_html/wp-settings.php on line 329
+[17-Apr-2025 11:26:28 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/squahwev/public_html/wp-includes/rest-api/fields/class-wp-rest-meta-fields.php' (include_path='.:/opt/alt/php82/usr/share/pear:/opt/alt/php82/usr/share/php:/usr/share/pear:/usr/share/php') in /home/squahwev/public_html/wp-settings.php:329
+Stack trace:
+#0 /home/squahwev/public_html/wp-config.php(97): require_once()
+#1 /home/squahwev/public_html/wp-load.php(50): require_once('/home/squahwev/...')
+#2 /home/squahwev/public_html/wp-blog-header.php(13): require_once('/home/squahwev/...')
+#3 /home/squahwev/public_html/index.php(17): require('/home/squahwev/...')
+#4 {main}
+  thrown in /home/squahwev/public_html/wp-settings.php on line 329
+[24-Apr-2025 05:40:57 UTC] PHP Warning:  Undefined array key 3 in /home/squahwev/public_html/wp-content/plugins/wp-cloudflare-page-cache/libs/cache_controller.class.php on line 2640
+[24-Apr-2025 05:40:57 UTC] PHP Warning:  Undefined array key 3 in /home/squahwev/public_html/wp-content/plugins/wp-cloudflare-page-cache/libs/cache_controller.class.php on line 2641

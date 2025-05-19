@@ -1,0 +1,27 @@
+@use "../base/variables" as v;
+
+/* post */
+.entry-header{text-align: left;}
+.entry-content{max-width: none;}
+.entry-content img{margin-bottom: 30px;}
+.entry-content p{margin: 0 0 30px;}
+figure{
+    margin: 0;
+}
+.hm-container{
+    background: v.$primary-color;
+    padding: 4% 6%;
+    border-radius: v.$theme-b-radius;
+    margin-bottom: 10rem;
+    h3, p{
+        color: #fff;
+    }
+    p{
+        margin-bottom: 0;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    /*content*/
+    .site{padding: 20px 15px;}
+}

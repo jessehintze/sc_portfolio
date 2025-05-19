@@ -1,0 +1,17 @@
+.hide{display: none;}
+@media screen and (min-width: 1025px){
+    .hide-lg{display: none !important;}
+    .show-lg{display: block !important;}
+}
+@media screen and (max-width: 1024px) and (min-width: 900px){
+    .hide-md{display: none !important;}
+    .show-md{display: block !important;}
+}
+@media screen and (max-width: 899px) and (min-width: 769px){
+    .hide-sm{display: none !important;}
+    .show-sm{display: block !important;}
+}
+@media screen and (max-width: 768px) {
+    .hide-xs{display: none !important;}
+    .show-xs{display: block !important;}
+}
