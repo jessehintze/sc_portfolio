@@ -4,8 +4,11 @@
     text-align: center;
     line-height: 0;
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-start;
     list-style: none;
+    @media screen and (max-width: 480px) {
+        justify-content: center;
+    }
 }
 .menu-social-container li{
     padding: 0 10px;
@@ -33,12 +36,4 @@
 }
 .menu-social-container .linkedin a:hover{
     background-image: url(../images/social_linkedin_hover.svg);
-}
-@media screen and (min-width: 1025px){
-    .menu-social-container ul {
-        margin: 0;
-    }
-    .menu-social-container li{
-        padding: 0;
-    }
 }

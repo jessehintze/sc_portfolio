@@ -64,6 +64,9 @@ a{
 .nav-previous{
     font-weight: 400;
     text-decoration: none;
+    a:hover{
+        text-decoration: none;
+    }
     span{
         text-decoration: underline;
         &:hover{
@@ -83,19 +86,13 @@ a{
     &::after{
         content: "\F105";
         margin-left: .8rem;
-    }
-}
-.nav-next{
-    a:hover{
-        text-decoration: none;
+        color: v.$primary-color;
     }
 }
 .nav-previous{
     &::before{
         content: "\F104 ";
         margin-right: .8rem;
-    }
-    a:hover{
-        text-decoration: none;
+        color: v.$primary-color;
     }
 }

@@ -95,7 +95,7 @@ img {
   justify-content: center;
 }
 
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 481px) {
   .footer-left {
     width: 50%;
     margin-bottom: 0;
@@ -285,8 +285,13 @@ img {
   text-align: center;
   line-height: 0;
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-start;
   list-style: none;
+}
+@media screen and (max-width: 480px) {
+  .menu-social-container ul {
+    justify-content: center;
+  }
 }
 
 .menu-social-container li {
@@ -323,14 +328,6 @@ img {
   background-image: url(../images/social_linkedin_hover.svg);
 }
 
-@media screen and (min-width: 1025px) {
-  .menu-social-container ul {
-    margin: 0;
-  }
-  .menu-social-container li {
-    padding: 0;
-  }
-}
 .footer-right .textwidget img {
   max-width: 38px;
   margin-right: 10px;
@@ -557,6 +554,11 @@ a {
   font-weight: 400;
   text-decoration: none;
 }
+.contact-link a:hover,
+.nav-next a:hover,
+.nav-previous a:hover {
+  text-decoration: none;
+}
 .contact-link span,
 .nav-next span,
 .nav-previous span {
@@ -581,18 +583,13 @@ a {
 .nav-next::after {
   content: "\f105";
   margin-left: 0.8rem;
-}
-
-.nav-next a:hover {
-  text-decoration: none;
+  color: #094357;
 }
 
 .nav-previous::before {
   content: "\f104";
   margin-right: 0.8rem;
-}
-.nav-previous a:hover {
-  text-decoration: none;
+  color: #094357;
 }
 
 /****** Layout *******/
@@ -966,6 +963,7 @@ a {
   opacity: 1;
   transition: opacity 0.2s;
   display: block;
+  width: 100%;
 }
 
 .card:hover img {
